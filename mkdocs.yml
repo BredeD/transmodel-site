@@ -1,0 +1,170 @@
+site_name: Transmodel Ecosystem
+site_description: >
+  The reference site for Transmodel and the standards derived from it — NeTEx, SIRI,
+  OJP and OpRa — covering the European public transport data ecosystem.
+site_url: https://example.org/  # replace when hosting is decided
+site_author: Transmodel-CEN community
+
+# Where the source markdown lives. MkDocs builds everything under this folder.
+docs_dir: docs
+
+# Repo integration (edit these when the GitHub repo is created)
+# repo_name: <org>/<repo>
+# repo_url: https://github.com/<org>/<repo>
+# edit_uri: edit/main/docs/
+
+# ----------------------------------------------------------------------------
+# Theme
+# ----------------------------------------------------------------------------
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant       # SPA-like navigation
+    - navigation.tracking      # URL updates as user scrolls
+    - navigation.tabs          # top-level nav as tabs
+    - navigation.tabs.sticky   # tabs stay visible when scrolling
+    - navigation.sections      # top-level sections expanded
+    - navigation.top           # back-to-top button
+    - navigation.footer        # prev/next links at page bottom
+    - toc.follow               # right-side ToC follows scroll
+    - search.suggest
+    - search.highlight
+    - content.code.copy        # copy button on code blocks
+    - content.tabs.link        # linked tabs across pages
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    logo: material/train
+
+# ----------------------------------------------------------------------------
+# Markdown extensions
+# ----------------------------------------------------------------------------
+markdown_extensions:
+  - admonition                # !!! note / tip / warning blocks
+  - attr_list                 # add attributes to elements
+  - md_in_html                # process markdown inside <div> blocks — needed for card grids
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details          # collapsible admonitions
+  - pymdownx.superfences:     # nested code fences + mermaid
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# ----------------------------------------------------------------------------
+# Extra CSS — custom card styling and other tweaks
+# ----------------------------------------------------------------------------
+extra_css:
+  - stylesheets/extra.css
+
+# ----------------------------------------------------------------------------
+# Plugins
+# ----------------------------------------------------------------------------
+plugins:
+  - search
+
+# ----------------------------------------------------------------------------
+# Navigation
+#
+# Top-level tabs:
+#   Home | About | Transmodel | NeTEx | SIRI | OJP | OpRa | Review corpus
+#
+# "About" holds cross-cutting ecosystem material — governance, history, legal
+# context, team, conformity. Each of the five standards is its own tab with
+# the same sub-structure: Overview, Implementations, FAQ, Resources.
+#
+# Only pages that actually exist appear here — commented lines are the plan
+# and will be uncommented as pages are washed and land in docs/.
+# ----------------------------------------------------------------------------
+nav:
+  - Home: index.md
+
+  - About:
+      - Overview: about/index.md
+      - Purpose: about/purpose.md
+      - Transmodel at a glance: about/transmodel-at-a-glance.md
+      - Governance: about/governance.md
+      - Legal context: about/legal-context.md
+      - History: about/history.md
+      - Team: about/team.md
+      - Conformity:
+          - Overview: about/conformity/index.md
+          - Standards harmonisation: about/conformity/harmonisation.md
+          - Standards comparison: about/conformity/comparison.md
+          - Certification: about/conformity/certification.md
+
+  # Transmodel is a conceptual model. It has no "Implementations" — instead
+  # it has "Adopters" (who builds on it).
+  - Transmodel:
+      - Overview: standards/transmodel/index.md
+      - Adopters: standards/transmodel/adopters.md
+      - FAQ: standards/transmodel/faq.md
+      - Resources: standards/transmodel/resources.md
+
+  - NeTEx:
+      - Overview: standards/netex/index.md
+      - Implementations: standards/netex/implementations.md
+      - FAQ: standards/netex/faq.md
+      - Resources: standards/netex/resources.md
+
+  - SIRI:
+      - Overview: standards/siri/index.md
+      - Implementations: standards/siri/implementations.md
+      - FAQ: standards/siri/faq.md
+      - Resources: standards/siri/resources.md
+
+  - OJP:
+      - Overview: standards/ojp/index.md
+      - Implementations: standards/ojp/implementations.md
+      - FAQ: standards/ojp/faq.md
+      - Resources: standards/ojp/resources.md
+
+  - OpRa:
+      - Overview: standards/opra/index.md
+      - Implementations: standards/opra/implementations.md
+      - FAQ: standards/opra/faq.md
+      - Resources: standards/opra/resources.md
+
+  - Review corpus:
+      - About: review/index.md
+      - From data4pt.org/wiki: review/wiki/index.md
+      - From transmodel-cen.eu: review/transmodel-cen/index.md
+
+# ----------------------------------------------------------------------------
+# Extra
+# ----------------------------------------------------------------------------
+extra:
+  status:
+    review: In review
+    new: Recently added

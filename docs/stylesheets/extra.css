@@ -1,0 +1,78 @@
+/* ---------------------------------------------------------------------------
+   Card grids — visual boxes with responsive column layout
+   Used on the home page and section landing pages.
+   Breakpoints:
+     • narrow  (<600px)  → 1 column   (e.g. 1×4 for the four exchange standards)
+     • default (≥600px)  → 2 columns  (e.g. 2×2 for the four exchange standards)
+     • wide    (≥1400px) → 3 columns  (only kicks in if 3 cards fit comfortably)
+--------------------------------------------------------------------------- */
+
+.md-typeset .grid.cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  margin: 1.2rem 0;
+}
+
+@media (min-width: 600px) {
+  .md-typeset .grid.cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1400px) {
+  .md-typeset .grid.cards {
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  }
+}
+
+/* Remove list styling — cards render as boxes, not bullets */
+.md-typeset .grid.cards > ul {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+  display: contents;
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > * {
+  list-style: none;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  padding: 1rem 1.2rem;
+  margin: 0;
+  background: var(--md-default-bg-color);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > *:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0.25rem 0.6rem rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Give the title paragraph inside a card slightly more weight */
+.md-typeset .grid.cards > ul > li > p:first-child {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+
+/* The `---` separator inside a card becomes a subtle divider */
+.md-typeset .grid.cards > ul > li > hr {
+  margin: 0.6rem -0.2rem;
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Style the trailing link ("Learn more →") more prominently */
+.md-typeset .grid.cards > ul > li > p:last-child a {
+  font-weight: 500;
+}
+
+/* Icons in card titles — a bit larger for visual anchoring */
+.md-typeset .grid.cards .twemoji svg {
+  height: 1.4rem;
+  width: 1.4rem;
+  vertical-align: middle;
+}

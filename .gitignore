@@ -1,0 +1,23 @@
+# Original delivery folder from Sara — files are already copied into
+# _source-exports/, no need to have them twice in git.
+Transmodel-site download from Sara/
+
+# Cloned reference material — each contributor runs scripts/sync_sources.py locally
+_references/
+
+# MkDocs build output — regenerated from docs/
+site/
+
+# The large source-export ZIPs (~1.5 GB total).
+# The XML files ARE committed as the audit trail; the ZIPs stay local.
+# If a contributor needs the images/PDFs, they can re-run scripts/extract_images.py
+# against the ZIPs (which we'll share separately, e.g. via a shared Drive).
+_source-exports/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
