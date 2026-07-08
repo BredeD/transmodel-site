@@ -1,0 +1,54 @@
+name: Deploy site to GitHub Pages
+
+# Build and publish the MkDocs site whenever main updates.
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # allows manual re-runs from the Actions tab
+
+# Least-privilege permissions — only what's needed to publish Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install MkDocs Material
+        run: pip install mkdocs mkdocs-material
+
+      - name: Build the site
+        # Not --strict yet — we have expected warnings from links to pages
+        # that will exist once more content is washed.
+        run: mkdocs build --site-dir _site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
