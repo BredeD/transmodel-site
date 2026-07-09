@@ -75,6 +75,8 @@ Each standard covers a different phase in the life of a public transport service
 
 The full standards are large — they have to be, to cover every mode and every country. In practice, most implementations use a **profile**: an agreed subset for a particular use case, national access point, or organisation. Well-known profiles include the **European Passenger Information Profile (EPIP)**, the **Nordic profile**, the **French profile**, the **Italian profile**, and others.
 
+Work is ongoing at CEN/TC 278, in collaboration with NAPCORE (the coordination programme for European National Access Points), to align the various national NeTEx profiles into a single EU-wide profile — motivated in part by MMTIS's requirement for smooth cross-border data flow.
+
 Each standard's Implementations page lists the profiles in use — see the top-level tabs.
 
 ## Who this site is for
