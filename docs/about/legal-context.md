@@ -27,7 +27,7 @@ The Regulation provides a detailed calendar for the publication obligation of ea
 
 ## How Transmodel fits in
 
-Transmodel is the conceptual layer beneath all this. [NeTEx](../standards/netex.md), [SIRI](../standards/siri/index.md), [OpRa](../standards/opra/index.md) and [OJP](../standards/ojp/index.md) are the data formats derived from Transmodel that MMTIS names as usable exchange formats. Where these formats are used, Transmodel is used underneath.
+Transmodel is the conceptual layer beneath all this. [NeTEx](../standards/netex/index.md), [SIRI](../standards/siri/index.md), [OpRa](../standards/opra/index.md) and [OJP](../standards/ojp/index.md) are the data formats derived from Transmodel that MMTIS names as usable exchange formats. Where these formats are used, Transmodel is used underneath.
 
 ## In detail
 

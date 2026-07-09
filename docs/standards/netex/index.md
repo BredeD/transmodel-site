@@ -72,7 +72,7 @@ Profiles exist at three levels:
 - **National profiles** — most countries with a National Access Point have defined a profile. Norway, Sweden, Finland and Denmark share the **Nordic profile**; France, Italy, Germany, the Netherlands, Switzerland, the UK and others have their own.
 - **Organisational profiles** — some large operators or authorities layer additional constraints on top of a national profile.
 
-See [National implementations](../../implementations/national-profiles.md) for the full inventory of published profiles.
+See [Implementations](implementations.md) for the full inventory of published NeTEx profiles.
 
 ### The European Passenger Information Profile (EPIP)
 
