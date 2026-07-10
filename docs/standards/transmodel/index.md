@@ -1,4 +1,4 @@
-# Transmodel
+# Transmodel (SG4)
 
 Transmodel is the European reference data model for public transport. It gives everyone in the ecosystem — authorities, operators, journey planners, information systems — a common way to describe the same things, so that data can flow between them without custom translation each time.
 
