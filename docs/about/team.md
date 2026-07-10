@@ -16,6 +16,7 @@ Use the filter below to see who works on each standard.
 <button data-filter="netex">NeTEx (SG9)</button>
 <button data-filter="siri">SIRI (SG7)</button>
 <button data-filter="ojp">OJP (SG8)</button>
+<button data-filter="opra">OpRa (SG10)</button>
 </div>
 
 ## The original team { .team-section }
