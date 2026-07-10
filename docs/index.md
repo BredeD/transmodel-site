@@ -14,7 +14,7 @@ Europe's public transport runs on a family of open standards that let informatio
 
 <div class="grid cards" markdown>
 
--   :material-graph-outline: **Transmodel**
+-   :material-graph-outline: **Transmodel (SG4)**
 
     ---
 
@@ -24,7 +24,7 @@ Europe's public transport runs on a family of open standards that let informatio
 
     [Learn about Transmodel →](standards/transmodel/index.md)
 
--   :material-calendar-clock: **NeTEx**
+-   :material-calendar-clock: **NeTEx (SG9)**
 
     ---
 
@@ -34,7 +34,7 @@ Europe's public transport runs on a family of open standards that let informatio
 
     [Learn about NeTEx →](standards/netex/index.md)
 
--   :material-radio-tower: **SIRI**
+-   :material-radio-tower: **SIRI (SG7)**
 
     ---
 
@@ -44,7 +44,7 @@ Europe's public transport runs on a family of open standards that let informatio
 
     [Learn about SIRI →](#)
 
--   :material-routes: **OJP**
+-   :material-routes: **OJP (SG8)**
 
     ---
 
@@ -52,7 +52,7 @@ Europe's public transport runs on a family of open standards that let informatio
 
     [Learn about OJP →](#)
 
--   :material-database-clock: **OpRa**
+-   :material-database-clock: **OpRa (SG10)**
 
     ---
 
