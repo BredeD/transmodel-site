@@ -51,21 +51,33 @@ Tell the contributor. Suggest they add it to SOURCES.md via PR. Do not silently 
 - `_source-exports/` — original XML dumps. **Never edit these.** They are the audit trail.
 - `_references/` — cloned copies of trusted external sources (see above). **Never edit these** — they mirror upstream repos. If something needs changing there, it goes upstream.
 - `scripts/` — Python conversion + sync scripts. Only edit if the user is explicitly working on tooling.
-- `STATUS.md` — the living index. Update it whenever you help someone finish washing a page.
+- `STATUS.md` — the original planning artefact. Lists every source page with its intended target and disposition. Do **not** update the `Owner` or `Status` columns — those are duplicated on the project board and live there instead. Notes, disposition changes, and new source rows may still be added here.
 - `SOURCES.md` — the trusted/untrusted source registry. Edit only via a PR that the team reviews.
-- `README.md`, `CONTRIBUTING.md` — occasional edits fine, but ask first.
+- `README.md`, `CONTRIBUTING.md`, `WASH-GUIDE.md` — occasional edits fine, but ask first.
+
+## The project board is the source of truth for state
+
+Day-to-day tracking (who owns what, current status, blockers) lives on the GitHub project board at `github.com/users/BredeD/projects/4`, not in `STATUS.md`. Each source page is one card there, with:
+
+- Human-friendly title and file path
+- Disposition field (keep / merge / rewrite / guides / delete)
+- Status column (Backlog / In progress / In review / Done / Needs input)
+- Live-URL link at the top of the body (points at the published page)
+- Labels for filtering (source, disposition)
+
+When a contributor asks *"what should I work on next?"* or *"who's on this?"* — refer them to the board, not `STATUS.md`.
 
 ## The workflow you're supporting
 
-Each contributor picks one page from `STATUS.md`, moves it from `_staging/` into `docs/`, cleans it up, opens a PR. Your job is to help them do that specific unit of work well.
+Each contributor picks one card from the project board, moves the corresponding page from `_staging/` into `docs/`, cleans it up, opens a PR. Your job is to help them do that specific unit of work well.
 
 When you're helping with a page:
 
 1. Read the current version in `_staging/`.
 2. Check the frontmatter to understand the source (`source_url`).
-3. Ask what disposition they intend — `keep`, `merge`, `rewrite`, `hand off to Guides`, or `delete`. If they don't know, help them decide by comparing to related pages already in `docs/` and to the trusted sources in `_references/`.
+3. Look at the card's disposition (keep / merge / rewrite / guides / delete). If the contributor is unsure, help them decide by comparing to related pages already in `docs/` and to the trusted sources in `_references/`.
 4. Do the actual editing they ask for. Suggest structural improvements only if they're small.
-5. Remind them to update image paths (from `_staging/`-relative to `docs/assets/images/…`) and to update `STATUS.md`.
+5. Remind them to update image paths (from `_staging/`-relative to `docs/assets/images/…`) and to move the card on the board when the PR is opened (In progress → In review).
 
 ## Style rules (enforce these)
 
@@ -98,4 +110,4 @@ When you're helping with a page:
 
 ## Two-sentence summary
 
-You are helping a small team migrate two legacy sites into one clean markdown-first website. Be careful with `docs/`, generous with `_staging/`, always consult `_references/` before claiming anything about NeTEx, and always leave `STATUS.md` consistent with what you just did.
+You are helping a small team migrate two legacy sites into one clean markdown-first website. Be careful with `docs/`, generous with `_staging/`, always consult `_references/` before claiming anything about NeTEx, and remember that the project board — not `STATUS.md` — is the source of truth for current state.
