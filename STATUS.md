@@ -99,6 +99,16 @@ Every page pulled from the two source sites, with a proposed disposition. This i
 
 ---
 
+## New pages (no legacy source)
+
+Pages authored from scratch that don't derive from either legacy site. Tracked here for completeness — they don't map to any row in the tables above but do appear on the board.
+
+| Target | Purpose | Owner | Status |
+| --- | --- | --- | --- |
+| `docs/index.md` | Site home page — high-level overview with equal-weight cards for Transmodel, NeTEx, SIRI, OJP, OpRa | Brede | in-review |
+
+---
+
 ## Roll-up
 
 **By disposition:**
