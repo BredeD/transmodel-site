@@ -76,3 +76,90 @@
   width: 1.4rem;
   vertical-align: middle;
 }
+
+/* ---------------------------------------------------------------------------
+   Team page filter chips
+--------------------------------------------------------------------------- */
+
+.md-typeset .team-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1rem 0 1.5rem 0;
+  align-items: center;
+}
+
+.md-typeset .team-filter .team-filter-label {
+  font-weight: 500;
+  margin-right: 0.5rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .team-filter button {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 1rem;
+  padding: 0.2rem 0.8rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: var(--md-default-fg-color);
+  transition: all 0.15s ease;
+}
+
+.md-typeset .team-filter button:hover {
+  border-color: var(--md-primary-fg-color);
+}
+
+.md-typeset .team-filter button.is-active {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-fg-color);
+}
+
+/* Team member cards: nicer inline layout, keep as flowing content */
+.md-typeset .team-member {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 0.8rem;
+}
+
+.md-typeset .team-member h3 {
+  margin-top: 0.5rem;
+}
+
+.md-typeset .team-member .team-standards {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+  margin: 0.2rem 0 0.5rem 0;
+}
+
+.md-typeset .team-member .team-standards strong {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .team-member .team-standards em {
+  font-style: italic;
+  color: var(--md-default-fg-color--lighter);
+}
+
+/* Diamond members — founding members of the original team, given
+   special visual treatment. Badge appears after the H3 name. */
+.md-typeset .team-member.diamond {
+  border-left: 3px solid #7986cb;
+  padding-left: 0.8rem;
+  background: linear-gradient(to right, rgba(121, 134, 203, 0.07), transparent 60%);
+}
+
+.md-typeset .team-member.diamond h3::after {
+  content: "◆ Diamond member";
+  display: inline-block;
+  margin-left: 0.6rem;
+  padding: 0.15rem 0.6rem;
+  background: #7986cb;
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+}

@@ -2,117 +2,218 @@
 
 The people currently shaping Transmodel and the standards derived from it. This includes both the founding data modellers who built the original standard and the active members who work on it today.
 
-!!! note "Missing photos"
-    Two profile photos (Andrej Tibaut and Sara Guerra de Oliveira) were not included in the site export. They'll be re-added when the images are available.
+Use the filter below to see who works on each standard.
 
-## The original team
+!!! note "Missing photos and standard assignments"
+    A few profile photos (Andrej Tibaut and Sara Guerra de Oliveira) were not included in the site export and will be re-added when available.
+
+    Standards-per-member is mostly filled in with placeholders — most members are marked *"to be confirmed"*. As we gather this info, the filter will become more useful.
+
+<div class="team-filter" markdown>
+<span class="team-filter-label">Filter by standard:</span>
+<button data-filter="all">All</button>
+<button data-filter="transmodel">Transmodel (SG4)</button>
+<button data-filter="netex">NeTEx (SG9)</button>
+<button data-filter="siri">SIRI (SG7)</button>
+<button data-filter="ojp">OJP (SG8)</button>
+</div>
+
+## The original team { .team-section }
 
 The data modellers who built the foundations of Transmodel and the sub-standards.
 
+<div class="team-member" data-standards="" markdown>
 ### Fabrizio Arneodo — Italy
 
 Data Modeller. OpRa Subgroup Leader.
 
-![Fabrizio Arneodo](../assets/images/transmodel-cen/Fabrizio_Arneodo-1-1.png){ width="180" }
+**Standards:** *to be confirmed*
 
+![Fabrizio Arneodo](../assets/images/transmodel-cen/Fabrizio_Arneodo-1-1.png){ width="180" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Ulf Bjersing — Sweden
 
 Data Modeller.
 
-![Ulf Bjersing](../assets/images/transmodel-cen/Ulf_Bjersing-1.png){ width="180" }
+**Standards:** *to be confirmed*
 
+![Ulf Bjersing](../assets/images/transmodel-cen/Ulf_Bjersing-1.png){ width="180" }
+</div>
+
+<div class="team-member diamond" data-standards="" markdown>
 ### Kasia Bourée — France
 
 Data Modeller. Transmodel Subgroup Leader.
 
-![Kasia Bourée](../assets/images/transmodel-cen/Kasia_Bouree-1-1.jpg){ width="180" }
+**Standards:** *to be confirmed*
 
+![Kasia Bourée](../assets/images/transmodel-cen/Kasia_Bouree-1-1.jpg){ width="180" }
+</div>
+
+<div class="team-member diamond" data-standards="" markdown>
 ### Christophe Duquesne — France
 
 Data Modeller. NeTEx Subgroup Leader.
 
-![Christophe Duquesne](../assets/images/transmodel-cen/Christophe_Duquesne-1-1.jpg){ width="180" }
+**Standards:** *to be confirmed*
 
+![Christophe Duquesne](../assets/images/transmodel-cen/Christophe_Duquesne-1-1.jpg){ width="180" }
+</div>
+
+<div class="team-member diamond" data-standards="" markdown>
 ### Nicholas Knowles — UK
 
 Data Modeller.
 
-![Nicholas Knowles](../assets/images/transmodel-cen/Nicholas_Knowles-1.jpg){ width="180" }
+**Standards:** *to be confirmed*
 
+![Nicholas Knowles](../assets/images/transmodel-cen/Nicholas_Knowles-1.jpg){ width="180" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Andrej Tibaut — Slovenia
 
 Data Modeller.
 
-*(photo missing from export)*
+**Standards:** *to be confirmed*
 
-## Active members
+*(photo missing from export)*
+</div>
+
+## Active members { .team-section }
 
 Colleagues currently contributing to the ongoing work across CEN working groups.
 
+<div class="team-member" data-standards="" markdown>
 ### Yves Amsler
 
 UITP.
 
-![Yves Amsler](../assets/images/transmodel-cen/YvesAmsler-150x150.jpeg){ width="150" }
+**Standards:** *to be confirmed*
 
+![Yves Amsler](../assets/images/transmodel-cen/YvesAmsler-150x150.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Einar Bjørkevoll — Norway
 
-![Einar Bjørkevoll](../assets/images/transmodel-cen/EinarBjorkevoll-150x150.jpeg){ width="150" }
+**Standards:** *to be confirmed*
 
+![Einar Bjørkevoll](../assets/images/transmodel-cen/EinarBjorkevoll-150x150.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Sonia Bourdelin — France
 
-![Sonia Bourdelin](../assets/images/transmodel-cen/portrait-large-NoirBlanc-2023-150x150.jpg){ width="150" }
+**Standards:** *to be confirmed*
 
+![Sonia Bourdelin](../assets/images/transmodel-cen/portrait-large-NoirBlanc-2023-150x150.jpg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Roberto Caroccia — Italy
 
-*(photo missing)*
+**Standards:** *to be confirmed*
 
+*(photo missing)*
+</div>
+
+<div class="team-member" data-standards="transmodel,netex,siri" markdown>
 ### Brede Dammen — Norway
 
-![Brede Dammen](../assets/images/transmodel-cen/bredeDAmmen-150x150.jpeg){ width="150" }
+**Standards:** Transmodel · NeTEx · SIRI
 
+![Brede Dammen](../assets/images/transmodel-cen/bredeDAmmen-150x150.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="netex" markdown>
 ### Sara Guerra de Oliveira — Slovenia
 
-*(photo missing from export)*
+**Standards:** NeTEx
 
+*(photo missing from export)*
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Emmanuel de Verdalle — France & ITxPT
 
 WG3 leader.
 
-![Emmanuel de Verdalle](../assets/images/transmodel-cen/EmmanuelDeVerdalle-150x150.jpeg){ width="150" }
+**Standards:** *to be confirmed*
 
+![Emmanuel de Verdalle](../assets/images/transmodel-cen/EmmanuelDeVerdalle-150x150.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Kjell-Erik Eilertsen — Norway
 
-![Kjell-Erik Eilertsen](../assets/images/transmodel-cen/Kjell-ErikEilertsen.jpeg){ width="150" }
+**Standards:** *to be confirmed*
 
+![Kjell-Erik Eilertsen](../assets/images/transmodel-cen/Kjell-ErikEilertsen.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### David Glendining — UK & ITxPT
 
-![David Glendining](../assets/images/transmodel-cen/DavidGlendining-150x150.jpeg){ width="150" }
+**Standards:** *to be confirmed*
 
+![David Glendining](../assets/images/transmodel-cen/DavidGlendining-150x150.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Espen Gromoll — Norway
 
-*(photo missing)*
+**Standards:** *to be confirmed*
 
+*(photo missing)*
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Matthias Günter — Switzerland
 
-*(photo missing)*
+**Standards:** *to be confirmed*
 
+*(photo missing)*
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Johan Hammar — Sweden
 
-![Johan Hammar](../assets/images/transmodel-cen/JohanHammar-150x150.jpeg){ width="150" }
+**Standards:** *to be confirmed*
 
+![Johan Hammar](../assets/images/transmodel-cen/JohanHammar-150x150.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Stefan Jugelt — European Railway Association (ERA)
 
-![Stefan Jugelt](../assets/images/transmodel-cen/StefanJugelt-150x150.jpeg){ width="150" }
+**Standards:** *to be confirmed*
 
+![Stefan Jugelt](../assets/images/transmodel-cen/StefanJugelt-150x150.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Gergely Nitsch — Hungary
 
-![Gergely Nitsch](../assets/images/transmodel-cen/GergelyNitsch-150x150.jpeg){ width="150" }
+**Standards:** *to be confirmed*
 
+![Gergely Nitsch](../assets/images/transmodel-cen/GergelyNitsch-150x150.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Tu-Tho Thai — France
 
-![Tu-Tho Thai](../assets/images/transmodel-cen/TuThoTai-150x150.jpeg){ width="150" }
+**Standards:** *to be confirmed*
 
+![Tu-Tho Thai](../assets/images/transmodel-cen/TuThoTai-150x150.jpeg){ width="150" }
+</div>
+
+<div class="team-member" data-standards="" markdown>
 ### Edwin van den Belt — The Netherlands
 
+**Standards:** *to be confirmed*
+
 ![Edwin van den Belt](../assets/images/transmodel-cen/EdwinVanDenBelt-150x150.jpeg){ width="150" }
+</div>
