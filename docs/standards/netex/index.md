@@ -19,7 +19,7 @@ NeTEx has been developed under the CEN standardisation process (Comité Europée
 
 Because NeTEx is a standard rather than a proprietary format, data can move between systems from different vendors and different countries without bespoke integrations. This is what makes cross-border journey planning, national access points, and multi-operator ticketing practical.
 
-The NeTEx schema is freely usable under a GPL licence and its development is controlled by the CEN standards process. Source, XSDs and examples live in the [NeTEx CEN GitHub repository](https://github.com/NeTEx-CEN/NeTEx).
+The NeTEx schema is freely usable under a GPL licence and its development is controlled by the CEN standards process. Source, XSDs and examples live in the [NeTEx CEN GitHub repository](https://github.com/TransmodelEcosystem/NeTEx).
 
 ## The six parts of NeTEx
 
@@ -59,7 +59,7 @@ The NeTEx schema is designed for the efficient, updatable exchange of complex tr
 
 Data in NeTEx format is encoded as XML documents that must conform exactly to the schema. Conformance can be checked automatically by standard XML validators. The schema can also be used to generate language bindings so that software can produce and consume NeTEx documents without manually writing parsing code.
 
-A NeTEx service only needs to implement the elements that are relevant to its business objectives — the schema is designed so that extraneous elements can be ignored. Parties using NeTEx for a particular purpose typically define a **profile** to specify which elements must be present and which code sets to use. Before defining a new profile, check whether an existing one (Nordic, EPIP, French, Italian, and others) already fits your use case — reusing an established profile saves effort and improves interoperability.
+A NeTEx service only needs to implement the elements that are relevant to its business objectives — the schema is designed so that extraneous elements can be ignored. Parties using NeTEx for a particular purpose typically define a **profile** to specify which elements must be present and which code sets to use. Before defining a new profile, check whether an existing one ([Nordic](https://github.com/entur/nordic-netex-documentation), EPIP, [French](https://normes.transport.data.gouv.fr/), Italian, and others) already fits your use case — reusing an established profile saves effort and improves interoperability.
 
 ### Exchange between systems
 
@@ -72,7 +72,7 @@ The full NeTEx schema is large — deliberately so, because it must model the en
 Profiles exist at three levels:
 
 - **European profiles** — such as [EPIP](#the-european-passenger-information-profile-epip) for basic passenger information, and EPIAP for accessibility. These are agreed at CEN level.
-- **National profiles** — most countries with a National Access Point have defined a profile. The Nordic countries share the **Nordic profile**; France, Italy, Germany, the Netherlands, Switzerland, the UK and others have their own.
+- **National profiles** — most countries with a National Access Point have defined a profile. The Nordic countries share the [**Nordic profile**](https://github.com/entur/nordic-netex-documentation); [France](https://normes.transport.data.gouv.fr/) has published its profile via the national transport standards portal; Italy, Germany, the Netherlands, Switzerland, the UK and others have their own.
 - **Organisational profiles** — some large operators or authorities layer additional constraints on top of a national profile.
 
 Work is ongoing at CEN/TC 278, in collaboration with **NAPCORE** (the coordination programme for European National Access Points), to align the various national profiles into a **single EU-wide NeTEx profile** — motivated in part by MMTIS's requirement for smooth cross-border data flow. Progress will be reflected on the [Implementations](implementations.md) page as it moves through the standards process.
@@ -85,7 +85,7 @@ The idea behind EPIP is straightforward: if every member state publishes NeTEx d
 
 An **EPIP-adapted version of the NeTEx XML schema** exists. It also has a **simplified variant** without constraint checks, produced because the official NeTEx schema is too large for some code generation tools (notably C#) to handle. The simplified variant is compliant with the main schema but is intended for application development, not validation.
 
-Documentation and schema live in the [NeTEx EPIP profile repository](https://github.com/NeTEx-CEN/NeTEx-Profile-EPIP).
+Documentation and schema live in the [NeTEx EPIP profile repository](https://github.com/TransmodelEcosystem/NeTEx-Profile-EPIP).
 
 ### The Nordic profile
 
@@ -104,8 +104,8 @@ See **[Software & tools](../tools.md)** for the current inventory.
 
 ## References
 
-- **[NeTEx CEN GitHub](https://github.com/NeTEx-CEN/NeTEx)** — the canonical source of XSD schemas, examples and supporting documentation.
-- **[NeTEx EPIP profile GitHub](https://github.com/NeTEx-CEN/NeTEx-Profile-EPIP)** — schema and documentation for the European Passenger Information Profile.
+- **[NeTEx CEN GitHub](https://github.com/TransmodelEcosystem/NeTEx)** — the canonical source of XSD schemas, examples and supporting documentation.
+- **[NeTEx EPIP profile GitHub](https://github.com/TransmodelEcosystem/NeTEx-Profile-EPIP)** — schema and documentation for the European Passenger Information Profile.
 - **[NeTEx website](https://netex-cen.eu/)** — the CEN-hosted portal for NeTEx.
 - **[Nordic profile documentation](https://github.com/entur/nordic-netex-documentation)** — trusted reference for the Nordic profile.
 - **[DATA4PT wiki](https://data4pt.org/wiki/Main_Page)** — legacy site being replaced by this one; still useful for historical context.

@@ -30,7 +30,37 @@ Sources on this list are treated as authoritative by AI assistants working in th
 - **Local path after sync:** `_references/entur-netex-ontology/`
 - **Scope:** Terminology and relationships. Not a substitute for the NeTEx standard itself when it comes to XSD conformance.
 
+### TransmodelEcosystem/NeTEx
+
+- **URL:** https://github.com/TransmodelEcosystem/NeTEx
+- **What it is:** The official CEN NeTEx repository — XSD schemas, XML examples, and supporting documentation for the standard itself.
+- **Why we trust it:** This is the canonical source of NeTEx. If an assertion about NeTEx syntax, element names, or valid structure differs from what's here, the repo wins.
+- **Local path after sync:** `_references/NeTEx/`
+- **Scope:** Authoritative for NeTEx-the-standard. Not a substitute for national profile documentation (Nordic, French, etc.) when the question is about what a specific profile requires.
+
+### TransmodelEcosystem/SIRI
+
+- **URL:** https://github.com/TransmodelEcosystem/SIRI
+- **What it is:** The official CEN SIRI repository — XSD schemas, examples, and documentation for the real-time exchange standard.
+- **Why we trust it:** Canonical source for SIRI, same reasoning as the NeTEx repo above.
+- **Local path after sync:** `_references/SIRI/`
+- **Scope:** Authoritative for SIRI-the-standard. National SIRI profiles are covered elsewhere.
+
 <!-- Add new trusted sources below this line. Include URL, what it is, why we trust it, local path, scope. -->
+
+---
+
+## Web-only references
+
+Sources that aren't Git repositories (typical: national portals or documentation websites). They can't be cloned into `_references/` — the AI must consult them via `web_fetch` when a relevant question comes up.
+
+### normes.transport.data.gouv.fr
+
+- **URL:** https://normes.transport.data.gouv.fr/
+- **What it is:** The official French national portal for public-transport data standards. Documents the French NeTEx and SIRI profiles, along with related guidance.
+- **Why we trust it:** Maintained by the French government's transport data team (data.gouv.fr). Authoritative for the French profile.
+- **Sync method:** None — this is a website, not a git repo. AI assistants should `web_fetch` the relevant page when a French-profile question comes up.
+- **Scope:** French national profile only. Do not treat as authoritative for Nordic, Italian, or other profiles. Most content is in French.
 
 ---
 
@@ -75,11 +105,10 @@ Sources are cloned (not vendored) into `_references/` which is gitignored. This 
 
 **Candidates to evaluate:**
 
-- `NeTEx-CEN/NeTEx` (the official CEN NeTEx repo with XSDs and examples)
-- `SIRI-CEN/SIRI` (the official SIRI repo)
 - `TransmodelEcosystem/NeTEx-Guides-Documentation` (the CEN Guides work in progress — trusted once it stabilises)
-- French profile: `normes.transport.data.gouv.fr` (mentioned in the wiki content)
 - Italian profile: `5Tsrl/netex-italian-profile`
 - OJP: relevant repos when known
+- German profile: DELFI-related repos when identified
+- Swiss profile: OpenTransportData when identified
 
 These are placeholders — do not treat as trusted until the team confirms.
