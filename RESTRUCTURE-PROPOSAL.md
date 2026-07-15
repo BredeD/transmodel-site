@@ -133,7 +133,33 @@ Unchanged from today. Removed when the wash is complete.
 | About → NAPCORE (new) | Introduction → NAPCORE (short standalone paragraph) |
 | About → Team | Contact (new top-level tab) |
 | About → Purpose, Legal context, History | Introduction (unchanged, just renamed section) |
-| About → Conformity | Introduction → own sub-section (as today) |
+| About → Conformity (all four pages) | **Dropped.** See "Drop the Conformity section" below. |
+
+## Drop the Conformity section
+
+The legacy Transmodel-CEN site had a **Conformity** section with four pages: Conformity, Standards harmonisation, Standards comparison, and Certification. After reading through them, the recommendation is to **drop the section entirely**.
+
+**Reasoning:**
+
+- **The audience doesn't match ours.** The section addresses authors of new data standards claiming Transmodel-compatibility, CEN groups doing harmonisation work, and academic comparison efforts. None of these fits our three target audiences (newcomers, decision-makers, implementers).
+- **The Certification page is misleading.** It describes how certification "would" work if there were accredited Transmodel certification bodies. There aren't. Publishing this on a public site suggests something exists that doesn't.
+- **The methodology content is CEN-internal.** Standards comparison and harmonisation methodology belongs on CEN's own resources, not on a public entry-point site.
+- **The 2019 Harmonisation report** referenced from the Harmonisation page is a backward-looking summary of work done up to 2019 — a historical artefact, not a template for future work. Dated, not useful today.
+
+**What we keep from the section:**
+
+- **GTFS ↔ NeTEx canonical mapping PDF** — already linked from the NeTEx overview. Has real practical value. Stays under NeTEx Resources.
+- **`Methodology-for-comparing-data-standards.pdf`** — kept accessible under a Resources page if someone needs it, but not featured as a top-level section. This is the *only* piece of methodology content with lasting value.
+
+**What we drop entirely:**
+
+- Conformity page (methodology metadata)
+- Standards harmonisation page (procedural description)
+- Standards comparison page (methodology detail)
+- Certification page (aspirational, describes a process that doesn't exist)
+- The 2019 Harmonisation report PDF — historical, not useful for our audience
+
+**Action for Sara:** please check this recommendation with **Andrej Tibaut** (Slovenia). He's likely the person who most cares about conformity/harmonisation methodology being visible, and his input will confirm whether dropping this is acceptable or whether we should preserve something (perhaps as a small note or link on the Transmodel overview page).
 
 ## What stays the same
 
