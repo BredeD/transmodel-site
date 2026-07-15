@@ -42,7 +42,7 @@ Europe's public transport runs on a family of open standards that let informatio
 
     Used by every serious real-time passenger information system in Europe.
 
-    [Learn about SIRI →](#)
+    [Learn about SIRI →](standards/siri/index.md)
 
 -   :material-routes: **OJP (SG8)**
 
@@ -50,7 +50,7 @@ Europe's public transport runs on a family of open standards that let informatio
 
     **Distributed journey planning.** An open API for asking "how do I get from A to B?" across operator and country boundaries — without a central data warehouse.
 
-    [Learn about OJP →](#)
+    [Learn about OJP →](standards/ojp/index.md)
 
 -   :material-database-clock: **OpRa (SG10)**
 
@@ -58,61 +58,12 @@ Europe's public transport runs on a family of open standards that let informatio
 
     **Observed and historical data.** What actually happened — passing times, delays, cancellations — for analysis, statistics and continuous improvement.
 
-    [Learn about OpRa →](#)
+    [Learn about OpRa →](standards/opra/index.md)
 
 </div>
-
-## How they fit together
-
-Each standard covers a different phase in the life of a public transport service, but all of them are Transmodel-based — same entities, same definitions, same relationships. Work with any of them, and you're working with Transmodel underneath.
-
-- **Planning the service** → published as NeTEx (schedules, stops, fares).
-- **Running the service** → observed through SIRI (real-time).
-- **Answering "how do I get there?"** → OJP queries across operators.
-- **Learning from what happened** → OpRa (historical, observed data).
-
-## Profiles
-
-The full standards are large — they have to be, to cover every mode and every country. In practice, most implementations use a **profile**: an agreed subset for a particular use case, national access point, or organisation. Well-known profiles include the **European Passenger Information Profile (EPIP)**, the [**Nordic profile**](https://github.com/entur/nordic-netex-documentation), the [**French profile**](https://normes.transport.data.gouv.fr/), the **Italian profile**, and others.
-
-Work is ongoing at CEN/TC 278, in collaboration with NAPCORE (the coordination programme for European National Access Points), to align the various national NeTEx profiles into a single EU-wide profile — motivated in part by MMTIS's requirement for smooth cross-border data flow.
-
-Each standard's Implementations page lists the profiles in use — see the top-level tabs.
-
-## Who this site is for
-
-<div class="grid cards" markdown>
-
--   :material-code-braces: **You build systems**
-
-    ---
-
-    You're implementing NeTEx, SIRI, OJP or OpRa — as an operator, an authority, a vendor, or a journey planner developer. You need clear reference material and pointers to profiles that apply.
-
-    Start with the standard you're working with, then check the Implementations tab for your country.
-
--   :material-briefcase: **You choose or plan systems**
-
-    ---
-
-    You're procuring a new service, drafting a tender, planning a national access point, or advising on standards adoption. You need to understand what Transmodel is, what the standards deliver, and how they map to EU obligations.
-
-    Start with [About](about/index.md) → Purpose, Governance, Legal context.
-
-</div>
-
-## Get help
-
-- **FAQ** — each standard has its own FAQ in its top-level section.
-- **Support** — how to get help with implementation questions.
-- **Resources** — presentations, tutorials, videos and papers for deeper reading, under each standard's Resources tab.
 
 ---
 
-## For contributors
+## New here?
 
-If you're helping migrate content, start with the contributing guide in the repository. The short version: pick a page from the review corpus, open a `wash/<slug>` branch, clean it up, move it into the correct section, open a PR.
-
-## For AI assistants
-
-If you're an AI assistant helping a contributor, read `CLAUDE.md` and `SOURCES.md` at the root of the repo before you start. They tell you what to treat as authoritative and what not to.
+Start with the **[Introduction](introduction/index.md)** — a guided walkthrough of the ecosystem: how the standards are linked, how to use them, how standardization works, and how to contribute.

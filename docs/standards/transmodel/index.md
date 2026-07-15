@@ -39,7 +39,7 @@ Transmodel is designed for the whole public transport domain — not just buses,
 
 Transmodel has been recognised as a European standard since 2009. It is published in ten parts under the reference number **EN 12896 Part 1** through **Part 10**. Being a norm means it isn't a proposal or a suggestion — it's the agreed reference that member states, standardisation bodies, and system suppliers align to.
 
-See [Legal Context](../../about/legal-context.md) for how Transmodel connects to EU regulations.
+See [Legal Context](../../introduction/legal-context.md) for how Transmodel connects to EU regulations.
 
 ## Sub-domains covered
 
@@ -85,6 +85,6 @@ Transmodel isn't something you install or connect to directly — but it's the f
 
 Ecosystem-level context (shared across the standards):
 
-- **[Purpose](../../about/purpose.md)** — why Transmodel exists and what problems it solves.
-- **[Governance](../../about/governance.md)** — who maintains Transmodel and how decisions are made.
-- **[Legal context](../../about/legal-context.md)** — how Transmodel connects to EU regulations and directives.
+- **[Purpose](../../introduction/purpose.md)** — why Transmodel exists and what problems it solves.
+- **[Governance](../../introduction/governance.md)** — who maintains Transmodel and how decisions are made.
+- **[Legal context](../../introduction/legal-context.md)** — how Transmodel connects to EU regulations and directives.

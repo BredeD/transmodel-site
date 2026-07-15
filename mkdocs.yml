@@ -116,20 +116,22 @@ plugins:
 nav:
   - Home: index.md
 
-  - About:
-      - Overview: about/index.md
-      - Purpose: about/purpose.md
-      - Transmodel at a glance: about/transmodel-at-a-glance.md
-      - Governance: about/governance.md
-      - NAPCORE: about/napcore.md
-      - Legal context: about/legal-context.md
-      - History: about/history.md
-      - Team: about/team.md
+  - Introduction:
+      - Overview: introduction/index.md
+      - How the standards are linked: introduction/how-standards-are-linked.md
+      - How to use the standards: introduction/how-to-use-the-standards.md
+      - Governance: introduction/governance.md
+      - How to contribute: introduction/how-to-contribute.md
+      - NAPCORE: introduction/napcore.md
+      - Purpose: introduction/purpose.md
+      - Transmodel at a glance: introduction/transmodel-at-a-glance.md
+      - Legal context: introduction/legal-context.md
+      - History: introduction/history.md
       - Conformity:
-          - Overview: about/conformity/index.md
-          - Standards harmonisation: about/conformity/harmonisation.md
-          - Standards comparison: about/conformity/comparison.md
-          - Certification: about/conformity/certification.md
+          - Overview: introduction/conformity/index.md
+          - Standards harmonisation: introduction/conformity/harmonisation.md
+          - Standards comparison: introduction/conformity/comparison.md
+          - Certification: introduction/conformity/certification.md
 
   # Transmodel is a conceptual model. It has no "Implementations" — instead
   # it has "Adopters" (who builds on it).
@@ -162,6 +164,9 @@ nav:
       - Implementations: standards/opra/implementations.md
       - FAQ: standards/opra/faq.md
       - Resources: standards/opra/resources.md
+
+  - Contact:
+      - Team: contact/team.md
 
   - Review corpus:
       - About: review/index.md

@@ -2,7 +2,7 @@
 
 **NeTEx** (**Ne**twork **T**imetable **Ex**change) is the CEN Technical Standard for exchanging *scheduled* public transport data — network, stops, timetables, calendars, fares and vehicle scheduling — between different computer systems in a way that lets that data flow across organisational, geographical or administrative borders without custom translation.
 
-It is a direct implementation of the [Transmodel](../../about/index.md) conceptual data model, expressed as a set of W3C XML schemas.
+It is a direct implementation of the [Transmodel](../../introduction/index.md) conceptual data model, expressed as a set of W3C XML schemas.
 
 !!! tip "Watch a short introduction"
     A [3-minute overview video](https://youtu.be/KXSI-iRuNfc) covers what NeTEx is and where it fits.
