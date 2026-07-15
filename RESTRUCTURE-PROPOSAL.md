@@ -4,6 +4,41 @@
 **Status:** For discussion with Sara, then wider extended group
 **Goal:** simplify the site's front door and clarify what belongs where.
 
+## What this site is for
+
+Before we discuss structure, a clear statement of purpose, audience, and problem-space:
+
+### Purpose
+
+A single, current, authoritative entry point to the **Transmodel Ecosystem** — the family of European public transport data standards (Transmodel, NeTEx, SIRI, OJP, OpRa).
+
+CEN publishes the specifications; vendors write product documentation; national access points publish their own profiles. This site sits between: **explaining what the standards are, who runs them, how they fit together, and how to get started with them — without duplicating any of those layers.**
+
+It replaces two legacy sites (`transmodel-cen.eu` and `data4pt.org/wiki`) that had drifted, were maintained in silos, and had lost the ability to clearly signal what is current vs. historical.
+
+### Who it's for
+
+Three audiences share the same starting point here:
+
+- **People new to the ecosystem.** Someone told them "you'll need NeTEx" (or SIRI, or OJP), and they need to know what that means. Public officials, product managers, journalists, junior engineers. They need context first, technical detail later.
+- **Decision-makers and procurers.** Writing tenders, planning national services, advising on standards adoption. They need to know which standard covers which need, what the legal context is, and how the pieces fit together — enough to make informed choices, not enough to build systems.
+- **Implementers and vendors.** Need pointers to schemas, profiles, examples, and the people to talk to. This site sends them into deeper material rather than trying to be that material.
+
+Notably **not** the primary audience: developers doing deep implementation work. They go to the CEN NeTEx/SIRI repositories, the national profile portals, or the parallel [NeTEx Guides project](https://github.com/TransmodelEcosystem/NeTEx-Guides-Documentation). This site links them there, doesn't try to compete.
+
+### The problem it addresses
+
+Information about the Transmodel Ecosystem is scattered across at least four kinds of sources:
+
+- CEN repositories — authoritative but formal, hard to navigate for a newcomer
+- National access points and profile portals — each in its own language, with local conventions
+- Legacy project sites — outdated, mixed with historical content, unclear what still applies
+- Vendor and community documentation — useful but unavoidably biased toward one product or one implementation
+
+A newcomer can't tell which source is current, which is authoritative, which applies to their situation. There is no "start here" — and there hasn't been for a long time.
+
+This site is that "start here". Narrow in scope, honest about what it doesn't cover, neutral across the five standards, current, and politically balanced where topics are contested.
+
 ## The problem with the current setup
 
 The Home page is trying to do too many jobs at once:

@@ -8,6 +8,28 @@ This file is for Claude (Cowork, Claude Code) and any other AI assistant a contr
 
 There is also a parallel project (`TransmodelEcosystem/NeTEx-Guides-Documentation`) that produces deep technical guides for developers. This website will eventually link out to those guides; do not duplicate their scope here.
 
+## Purpose, audience and scope — keep this in mind when writing
+
+**Purpose:** A single, current, authoritative entry point to the Transmodel Ecosystem. CEN publishes the specifications; vendors write product documentation; national access points publish their own profiles. This site sits between: explaining what the standards are, who runs them, how they fit together, and how to get started with them — without duplicating any of those layers.
+
+**Audience:** Three groups share the same starting point:
+
+- **Newcomers** — someone told them they'll need NeTEx/SIRI/OJP/OpRa and they need to know what that means. Context first, technical detail later.
+- **Decision-makers and procurers** — writing tenders, planning national services, advising on standards adoption. Enough to make informed choices, not to build systems.
+- **Implementers and vendors** — pointers to schemas, profiles, examples, and the right people. This site sends them into deeper material rather than being that material.
+
+**Not the primary audience:** developers doing deep implementation work. They go to CEN repositories, national profile portals, or the parallel Guides project. Link them there rather than duplicating.
+
+**Scope discipline when writing content:**
+
+- **Narrow in scope.** Don't try to cover everything — link outward to authoritative sources at every level.
+- **Neutral across the five standards.** None is elevated above the others in the top-level structure. Transmodel is the conceptual model beneath them; that's a fact, not a hierarchy.
+- **Current, not archival.** Legacy content (Data4PT, phase-1 project outputs) is referenced as legacy, not woven into the main narrative.
+- **Politically balanced where topics are contested.** Alternative modes vs. GBFS/MDS, NAPCORE's role, the state of national profile alignment — factual framing, no side-taking. See the NeTEx overview's "Alternative modes in practice" callout for the tone we aim for.
+- **Honest about what the site doesn't cover.** If a reader needs schema-level detail, tell them where to go. Don't fake depth.
+
+If a piece of content you're helping draft doesn't fit any of the three audiences, pause and ask the contributor whether it belongs on this site at all — or somewhere else in the ecosystem (CEN repos, Guides project, national portal).
+
 ## About "Data4PT" — how to use the name
 
 **Data4PT was a CEF-funded European project that ended in June 2025.** It produced significant NeTEx- and SIRI-related artefacts (the reduced XSD, validation tools, the canonical GBFS mapping, national profile inventories, and the DATA4PT wiki that this site replaces).
