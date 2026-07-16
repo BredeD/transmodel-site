@@ -63,6 +63,18 @@ Europe's public transport runs on a family of open standards that let informatio
 
 </div>
 
+## On the way
+
+<div class="grid cards" markdown>
+
+-   :material-progress-clock: **In development**
+
+    ---
+
+    Three new standards (**EUDIT**, **CyclInfra**, **BT4PT**) and one new NeTEx profile (**EFIP**) are on the way to being defined — extending the ecosystem's coverage.
+
+</div>
+
 ---
 
 ## New here?

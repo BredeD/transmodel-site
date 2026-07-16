@@ -1,0 +1,45 @@
+name: Regenerate team.md from _team.yml
+
+# Runs whenever the YAML source or the generator script changes.
+# Regenerates docs/contact/team.md and commits it back if it differs.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/contact/_team.yml"
+      - "scripts/build_team_page.py"
+  workflow_dispatch:  # allow manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+        with:
+          # Fetch a bit of history so the auto-commit-action can compare
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Regenerate team.md
+        run: python scripts/build_team_page.py
+
+      - name: Commit regenerated team.md if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(team): regenerate team.md from _team.yml"
+          file_pattern: "docs/contact/team.md"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"

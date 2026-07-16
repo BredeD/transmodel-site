@@ -1,0 +1,168 @@
+# Team page data — edit this file, then run scripts/build_team_page.py
+# (or push, and the GitHub Action regenerates team.md automatically).
+#
+# Fields per member:
+#   name          (required)  full name
+#   affiliation   (optional)  country and/or organisation shown after "— "
+#   role          (optional)  short role description (e.g. "Data Modeller. OpRa Subgroup Leader.")
+#   photo         (optional)  filename in docs/assets/images/transmodel-cen/
+#   photo_missing (optional)  true → renders "*(photo missing)*" instead of image
+#   photo_width   (optional)  pixel width for the image (default 150)
+#   standards     (optional)  list of standard ids the person works on
+#                             valid ids: transmodel, netex, siri, ojp, opra, eudit, efip, cyclinfra, bt4pt
+#                             empty list or missing → renders "*to be confirmed*"
+#   honorary      (optional)  true → adds "★ Honorary member" badge
+#   leader        (optional)  true → adds "◆ Leader" badge
+
+intro: |
+  The people currently shaping Transmodel and the standards derived from it — data modellers, subgroup leaders, and active contributors across CEN working groups.
+
+  Use the filter below to see who works on each standard.
+
+note: |
+  !!! note "Missing photos and standard assignments"
+      A few profile photos (Andrej Tibaut and Sara Guerra de Oliveira) were not included in the site export and will be re-added when available.
+
+      Standards-per-member is mostly filled in with placeholders — most members are marked *"to be confirmed"*. As we gather this info, the filter will become more useful.
+
+filters:
+  - id: all
+    label: All
+  - id: transmodel
+    label: Transmodel (SG4)
+  - id: netex
+    label: NeTEx (SG9)
+  - id: siri
+    label: SIRI (SG7)
+  - id: ojp
+    label: OJP (SG8)
+  - id: opra
+    label: OpRa (SG10)
+  - id: eudit
+    label: EUDIT
+  - id: efip
+    label: EFIP
+  - id: cyclinfra
+    label: CyclInfra
+  - id: bt4pt
+    label: BT4PT
+
+members:
+  - name: Kasia Bourée
+    affiliation: France
+    role: Data Modeller. Transmodel Subgroup Leader.
+    photo: Kasia_Bouree-1-1.jpg
+    photo_width: 180
+    honorary: true
+
+  - name: Christophe Duquesne
+    affiliation: France
+    role: Data Modeller. NeTEx Subgroup Leader.
+    photo: Christophe_Duquesne-1-1.jpg
+    photo_width: 180
+    honorary: true
+
+  - name: Nicholas Knowles
+    affiliation: UK
+    role: Data Modeller.
+    photo: Nicholas_Knowles-1.jpg
+    photo_width: 180
+    honorary: true
+
+  - name: Fabrizio Arneodo
+    affiliation: Italy
+    role: Data Modeller. OpRa Subgroup Leader.
+    photo: Fabrizio_Arneodo-1-1.png
+    photo_width: 180
+    leader: true
+
+  - name: Ulf Bjersing
+    affiliation: Sweden
+    role: Data Modeller.
+    photo: Ulf_Bjersing-1.png
+    photo_width: 180
+
+  - name: Andrej Tibaut
+    affiliation: Slovenia
+    role: Data Modeller.
+    photo_missing: true
+
+  - name: Yves Amsler
+    affiliation: UITP
+    photo: YvesAmsler-150x150.jpeg
+
+  - name: Thibaut Barrere
+    role: (details to be added)
+    photo_missing: true
+    leader: true
+
+  - name: Einar Bjørkevoll
+    affiliation: Norway
+    photo: EinarBjorkevoll-150x150.jpeg
+
+  - name: Sonia Bourdelin
+    affiliation: France
+    photo: portrait-large-NoirBlanc-2023-150x150.jpg
+
+  - name: Roberto Caroccia
+    affiliation: Italy
+    photo_missing: true
+
+  - name: Claus
+    role: (full name, country and role to be added)
+    photo_missing: true
+    leader: true
+
+  - name: Brede Dammen
+    affiliation: Norway
+    photo: bredeDAmmen-150x150.jpeg
+    standards: [transmodel, netex, siri]
+
+  - name: Sara Guerra de Oliveira
+    affiliation: Slovenia
+    photo_missing: true
+    standards: [netex]
+
+  - name: Emmanuel de Verdalle
+    affiliation: France & ITxPT
+    role: WG3 leader.
+    photo: EmmanuelDeVerdalle-150x150.jpeg
+    leader: true
+
+  - name: Kjell-Erik Eilertsen
+    affiliation: Norway
+    photo: Kjell-ErikEilertsen.jpeg
+
+  - name: David Glendining
+    affiliation: UK & ITxPT
+    photo: DavidGlendining-150x150.jpeg
+
+  - name: Espen Gromoll
+    affiliation: Norway
+    photo_missing: true
+
+  - name: Matthias Günter
+    affiliation: Switzerland
+    photo_missing: true
+
+  - name: Johan Hammar
+    affiliation: Sweden
+    photo: JohanHammar-150x150.jpeg
+
+  - name: Stefan Jugelt
+    affiliation: European Railway Association (ERA)
+    photo: StefanJugelt-150x150.jpeg
+
+  - name: Gergely Nitsch
+    affiliation: Hungary
+    photo: GergelyNitsch-150x150.jpeg
+
+  - name: Tu-Tho Thai
+    affiliation: France
+    photo: TuThoTai-150x150.jpeg
+    leader: true
+
+  - name: Edwin van den Belt
+    affiliation: The Netherlands
+    photo: EdwinVanDenBelt-150x150.jpeg
+    leader: true
