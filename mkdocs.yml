@@ -93,6 +93,7 @@ extra_css:
 # ----------------------------------------------------------------------------
 extra_javascript:
   - javascripts/team-filter.js
+  - javascripts/header-link.js
 
 # ----------------------------------------------------------------------------
 # Plugins
@@ -114,8 +115,6 @@ plugins:
 # and will be uncommented as pages are washed and land in docs/.
 # ----------------------------------------------------------------------------
 nav:
-  - Home: index.md
-
   - Introduction:
       - Overview: introduction/index.md
       - How the standards are linked: introduction/how-standards-are-linked.md

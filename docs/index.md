@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+  - navigation
 ---
 
 # One model. Many standards. One interoperable ecosystem.
