@@ -25,6 +25,36 @@ note: |
 
       Standards-per-member is mostly filled in with placeholders — most members are marked *"to be confirmed"*. As we gather this info, the filter will become more useful.
 
+# Standards contacts — shown as a box at the top of the page.
+# Each links to the standard's own section where full contact info,
+# GitHub links, artefacts, and FAQ will land as we wash those pages.
+standards:
+  - id: transmodel
+    label: Transmodel
+    subgroup: SG4
+    icon: material-graph-outline
+    link: ../standards/transmodel/index.md
+  - id: netex
+    label: NeTEx
+    subgroup: SG9
+    icon: material-calendar-clock
+    link: ../standards/netex/index.md
+  - id: siri
+    label: SIRI
+    subgroup: SG7
+    icon: material-radio-tower
+    link: ../standards/siri/index.md
+  - id: ojp
+    label: OJP
+    subgroup: SG8
+    icon: material-routes
+    link: ../standards/ojp/index.md
+  - id: opra
+    label: OpRa
+    subgroup: SG10
+    icon: material-database-clock
+    link: ../standards/opra/index.md
+
 filters:
   - id: all
     label: All

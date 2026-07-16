@@ -116,11 +116,44 @@
   border-color: var(--md-primary-fg-color);
 }
 
-/* Team member cards: nicer inline layout, keep as flowing content */
+/* Team grid — responsive columns for member cards.
+   1 column on mobile, 2 on medium, 3 on wide screens. */
+.md-typeset .team-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  margin: 1.2rem 0;
+}
+
+@media (min-width: 700px) {
+  .md-typeset .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .md-typeset .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Team member cards inside the grid */
 .md-typeset .team-member {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  margin-bottom: 0.8rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  background: var(--md-default-bg-color);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset .team-member:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0.15rem 0.4rem rgba(0, 0, 0, 0.06);
+}
+
+.md-typeset .team-member img {
+  max-width: 100%;
+  height: auto;
 }
 
 .md-typeset .team-member h3 {
