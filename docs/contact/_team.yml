@@ -157,17 +157,21 @@ members:
   - name: Stefan Jugelt
     affiliation: European Railway Association (ERA)
     photo: StefanJugelt-150x150.jpeg
+    standards: [netex]
 
   - name: Gergely Nitsch
     affiliation: Hungary
     photo: GergelyNitsch-150x150.jpeg
+    standards: [transmodel, opra]
 
   - name: Tu-Tho Thai
     affiliation: France
     photo: TuThoTai-150x150.jpeg
+    standards: [transmodel, netex, siri, cyclinfra, eudit, efip]
     leader: true
 
   - name: Edwin van den Belt
     affiliation: The Netherlands
     photo: EdwinVanDenBelt-150x150.jpeg
+    standards: [eudit, tomp]
     leader: true
