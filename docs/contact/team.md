@@ -98,7 +98,7 @@ Data Modeller.
 </div>
 
 <div class="team-member leader" data-standards="" markdown>
-### Thibaut Barrere
+### Thibaut Barrére
 
 (details to be added)
 
@@ -107,18 +107,18 @@ Data Modeller.
 *(photo missing)*
 </div>
 
-<div class="team-member" data-standards="" markdown>
+<div class="team-member" data-standards="transmodel,netex,siri,opra,eudit,efip" markdown>
 ### Einar Bjørkevoll — Norway
 
-**Standards:** *to be confirmed*
+**Standards:** Transmodel · NeTEx · SIRI · OpRa · EUDIT · EFIP
 
 ![Einar Bjørkevoll](../assets/images/transmodel-cen/EinarBjorkevoll-150x150.jpeg){ width="150" }
 </div>
 
-<div class="team-member" data-standards="" markdown>
+<div class="team-member" data-standards="transmodel" markdown>
 ### Sonia Bourdelin — France
 
-**Standards:** *to be confirmed*
+**Standards:** Transmodel
 
 ![Sonia Bourdelin](../assets/images/transmodel-cen/portrait-large-NoirBlanc-2023-150x150.jpg){ width="150" }
 </div>
@@ -131,12 +131,12 @@ Data Modeller.
 *(photo missing)*
 </div>
 
-<div class="team-member leader" data-standards="" markdown>
-### Claus
+<div class="team-member leader" data-standards="siri" markdown>
+### Claus Dohmen — Germany
 
-(full name, country and role to be added)
+SIRI Subgroup leader
 
-**Standards:** *to be confirmed*
+**Standards:** SIRI
 
 *(photo missing)*
 </div>
@@ -160,7 +160,7 @@ Data Modeller.
 <div class="team-member leader" data-standards="" markdown>
 ### Emmanuel de Verdalle — France & ITxPT
 
-WG3 leader.
+WG3 and Transmodel Subgroup leader.
 
 **Standards:** *to be confirmed*
 
@@ -191,10 +191,10 @@ WG3 leader.
 *(photo missing)*
 </div>
 
-<div class="team-member" data-standards="" markdown>
+<div class="team-member" data-standards="transmodel,netex,siri,ojp" markdown>
 ### Matthias Günter — Switzerland
 
-**Standards:** *to be confirmed*
+**Standards:** Transmodel · NeTEx · SIRI · OJP
 
 *(photo missing)*
 </div>
