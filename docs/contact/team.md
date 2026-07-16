@@ -207,34 +207,34 @@ WG3 and Transmodel Subgroup leader.
 ![Johan Hammar](../assets/images/transmodel-cen/JohanHammar-150x150.jpeg){ width="150" }
 </div>
 
-<div class="team-member" data-standards="" markdown>
+<div class="team-member" data-standards="netex" markdown>
 ### Stefan Jugelt — European Railway Association (ERA)
 
-**Standards:** *to be confirmed*
+**Standards:** NeTEx
 
 ![Stefan Jugelt](../assets/images/transmodel-cen/StefanJugelt-150x150.jpeg){ width="150" }
 </div>
 
-<div class="team-member" data-standards="" markdown>
+<div class="team-member" data-standards="transmodel,opra" markdown>
 ### Gergely Nitsch — Hungary
 
-**Standards:** *to be confirmed*
+**Standards:** Transmodel · OpRa
 
 ![Gergely Nitsch](../assets/images/transmodel-cen/GergelyNitsch-150x150.jpeg){ width="150" }
 </div>
 
-<div class="team-member leader" data-standards="" markdown>
+<div class="team-member leader" data-standards="transmodel,netex,siri,cyclinfra,eudit,efip" markdown>
 ### Tu-Tho Thai — France
 
-**Standards:** *to be confirmed*
+**Standards:** Transmodel · NeTEx · SIRI · CyclInfra · EUDIT · EFIP
 
 ![Tu-Tho Thai](../assets/images/transmodel-cen/TuThoTai-150x150.jpeg){ width="150" }
 </div>
 
-<div class="team-member leader" data-standards="" markdown>
+<div class="team-member leader" data-standards="eudit,tomp" markdown>
 ### Edwin van den Belt — The Netherlands
 
-**Standards:** *to be confirmed*
+**Standards:** EUDIT · tomp
 
 ![Edwin van den Belt](../assets/images/transmodel-cen/EdwinVanDenBelt-150x150.jpeg){ width="150" }
 </div>
