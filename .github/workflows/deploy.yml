@@ -29,8 +29,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install MkDocs Material
-        run: pip install mkdocs mkdocs-material
+      - name: Install MkDocs Material and PyYAML
+        run: pip install mkdocs mkdocs-material pyyaml
+
+      - name: Regenerate team.md from _team.yml
+        # Ensures the rendered team page is always in sync with the YAML
+        # source. Team members are edited in docs/contact/_team.yml.
+        run: python scripts/build_team_page.py
 
       - name: Build the site
         # Not --strict yet — we have expected warnings from links to pages
