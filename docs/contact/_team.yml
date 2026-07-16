@@ -91,7 +91,7 @@ members:
     affiliation: UITP
     photo: YvesAmsler-150x150.jpeg
 
-  - name: Thibaut Barrere
+  - name: Thibaut Barrére
     role: (details to be added)
     photo_missing: true
     leader: true
@@ -99,18 +99,22 @@ members:
   - name: Einar Bjørkevoll
     affiliation: Norway
     photo: EinarBjorkevoll-150x150.jpeg
+    standards: [transmodel, netex, siri, opra, eudit, efip]  
 
   - name: Sonia Bourdelin
     affiliation: France
     photo: portrait-large-NoirBlanc-2023-150x150.jpg
+    standards: [transmodel]
 
   - name: Roberto Caroccia
     affiliation: Italy
     photo_missing: true
 
-  - name: Claus
-    role: (full name, country and role to be added)
+  - name: Claus Dohmen
+    affiliation: Germany
+    role: SIRI Subgroup leader
     photo_missing: true
+    standards: [siri]
     leader: true
 
   - name: Brede Dammen
@@ -125,7 +129,7 @@ members:
 
   - name: Emmanuel de Verdalle
     affiliation: France & ITxPT
-    role: WG3 leader.
+    role: WG3 and Transmodel Subgroup leader.
     photo: EmmanuelDeVerdalle-150x150.jpeg
     leader: true
 
@@ -144,6 +148,7 @@ members:
   - name: Matthias Günter
     affiliation: Switzerland
     photo_missing: true
+    standards: [transmodel, netex, siri, ojp]
 
   - name: Johan Hammar
     affiliation: Sweden
@@ -152,17 +157,21 @@ members:
   - name: Stefan Jugelt
     affiliation: European Railway Association (ERA)
     photo: StefanJugelt-150x150.jpeg
+    standards: [netex]
 
   - name: Gergely Nitsch
     affiliation: Hungary
     photo: GergelyNitsch-150x150.jpeg
+    standards: [transmodel, opra]
 
   - name: Tu-Tho Thai
     affiliation: France
     photo: TuThoTai-150x150.jpeg
+    standards: [transmodel, netex, siri, cyclinfra, eudit, efip]
     leader: true
 
   - name: Edwin van den Belt
     affiliation: The Netherlands
     photo: EdwinVanDenBelt-150x150.jpeg
+    standards: [eudit, tomp]
     leader: true
