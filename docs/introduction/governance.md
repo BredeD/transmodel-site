@@ -30,11 +30,11 @@ The WG3 sub-groups are:
 
 Transmodel is the conceptual model. Each of the exchange standards — NeTEx, SIRI, OpRa, OJP — sits on top of it as a concrete implementation for a specific purpose. The same sub-groups that maintain each exchange standard also coordinate with the Transmodel sub-group (SG4) to keep the concepts aligned.
 
-![The Transmodel-based standards and how they relate](../assets/images/transmodel-cen/governance_fig.3_standards-relate.svg){ style="max-width: 100%; height: auto;" }
+![The Transmodel-based standards and how they relate](../assets/images/transmodel-cen/governance_fig.3_standards-relate-updated.svg){ style="max-width: 100%; height: auto;" }
 
 Because they share a common conceptual model, changes at the Transmodel level can propagate cleanly through the exchange standards, and lessons learned in an exchange standard can feed back to refine the model.
 
-![Transmodel parts and how they link to each other](../assets/images/transmodel-cen/BubbleChartTransmodelUpdate0724-768x432.jpg)
+![Transmodel parts and how they link to each other](../assets/images/transmodel-cen/governance_fig.4_transmodel-parts.svg){ style="max-width: 100%; height: auto;" }
 
 ## How a European Standard gets developed
 
