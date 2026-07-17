@@ -120,6 +120,23 @@ When you're helping with a page:
 - **Broken links.** If an internal link points at a file that no longer exists (because it got moved or deleted), flag it.
 - **Contradictions with the trusted sources.** If a `_staging/` page says something the Nordic documentation contradicts, flag it — this is often exactly where the wiki got stale.
 
+## When the contributor is ready to push
+
+When the work reaches a natural commit point (a page washed, a feature added, a fix applied), always suggest a commit **subject** and a short **description** the contributor can paste into GitHub Desktop or `git commit`.
+
+Format:
+
+- **Subject line** — one short sentence describing what changed, imperative-ish tone. Keep it under ~72 characters. Example: `Contact page: add standards contacts box, sort by role, responsive grid`
+- **Description** — a bullet list of the specific changes, one bullet per change, short. Example:
+  ```
+  - New "standards" list in _team.yml (5 standard cards at top of contact page)
+  - Sort team: leaders first (alpha), then honorary, then rest (alpha)
+  - Wrap members in .team-grid — 3 cols wide, 2 cols medium, 1 col mobile
+  - Hide table of contents AND left navigation
+  ```
+
+Keep it short — no essays. If the change is trivial (typo, one-liner), just the subject is enough.
+
 ## Things NOT to do
 
 - Do not touch `_source-exports/` or `_references/`.
