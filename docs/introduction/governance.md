@@ -12,7 +12,7 @@ CEN's work is organised into **Technical Committees (TCs)**, each covering a spe
 
 Transmodel is developed by **CEN/TC 278**, the Technical Committee for Intelligent Transport Systems. Within TC 278, Public Transport is the responsibility of **Working Group 3 (WG3)**. WG3 splits into several sub-groups, one per standard.
 
-![CEN/TC 278 WG3 in context](../assets/images/transmodel-cen/governance_fig.1_v20240906-1024x576.jpg)
+![CEN/TC 278 WG3 in context](../assets/images/transmodel-cen/governance_fig.1_wg3-in-context.svg){ style="max-width: 100%; height: auto;" }
 
 The WG3 sub-groups are:
 
