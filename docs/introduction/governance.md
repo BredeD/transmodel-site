@@ -26,13 +26,11 @@ The WG3 sub-groups are:
 | SG9 | **NeTEx** — Network, Timetables and Fare Exchange | CEN TS 16614 parts 1–6 |
 | SG10 | **OpRa** — Operational Raw Data and Statistics | CEN TR 17370 (TS in development) |
 
-![Structure of CEN/TC 278/WG3](../assets/images/transmodel-cen/governance_fig.2_v20240906-1024x576.jpg)
-
 ## How the standards relate
 
 Transmodel is the conceptual model. Each of the exchange standards — NeTEx, SIRI, OpRa, OJP — sits on top of it as a concrete implementation for a specific purpose. The same sub-groups that maintain each exchange standard also coordinate with the Transmodel sub-group (SG4) to keep the concepts aligned.
 
-![The Transmodel-based standards and how they relate](../assets/images/transmodel-cen/Governance_fig.3_v20240906-1024x576.jpg)
+![The Transmodel-based standards and how they relate](../assets/images/transmodel-cen/governance_fig.3_standards-relate.svg){ style="max-width: 100%; height: auto;" }
 
 Because they share a common conceptual model, changes at the Transmodel level can propagate cleanly through the exchange standards, and lessons learned in an exchange standard can feed back to refine the model.
 
