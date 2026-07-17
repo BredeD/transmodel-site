@@ -8,8 +8,6 @@ CEN is one of three European Standardization Organizations, together with **[CEN
 
 CEN's work is organised into **Technical Committees (TCs)**, each covering a specific domain. Each TC splits into **Working Groups (WGs)**, and each Working Group into **Sub-Groups (SGs)**.
 
-![Work organisation of CEN](../assets/images/transmodel-cen/Screenshot-from-2024-04-25-12-02-23-300x260.png)
-
 ## Where Transmodel sits
 
 Transmodel is developed by **CEN/TC 278**, the Technical Committee for Intelligent Transport Systems. Within TC 278, Public Transport is the responsibility of **Working Group 3 (WG3)**. WG3 splits into several sub-groups, one per standard.
