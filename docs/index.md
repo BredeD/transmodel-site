@@ -8,6 +8,8 @@ hide:
 
 Europe's public transport runs on a family of open standards that let information flow between operators, authorities, journey planners and passenger information systems — across systems and across borders. This site is your entry point to that family.
 
+The Transmodel ecosystem is more than the technical standards, though — it's also a community of people across CEN, national authorities, operators and vendors who build, maintain and use them together.
+
 !!! info "Under construction"
     A small team from across CEN, Entur and partner organisations is currently building this site to replace [transmodel-cen.eu](https://transmodel-cen.eu) and [data4pt.org/wiki](https://data4pt.org/wiki/Main_Page). Content will fill out as pages are washed and approved.
 
