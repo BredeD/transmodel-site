@@ -1,14 +1,14 @@
 # Legal context
 
-Transmodel isn't just a technical model — it sits inside a specific European legal framework that shapes what public transport data is expected to look like, who publishes it, and to what timescales.
+The Transmodel Ecosystem isn't just a technical family of standards — it sits inside a specific European legal framework that shapes what public transport data is expected to look like, who publishes it, and to what timescales.
 
 ![](../assets/images/transmodel-cen/Embleme-UE_base_BD_2.jpg)
 
 ## The ITS Directive
 
-Transmodel is referenced in the context of the European **[ITS Directive 2010/40/EU](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010L0040)** — in particular Priority Action A, which supplements the Directive with regard to the provision of EU-wide multimodal travel information services. The role Transmodel plays under this directive is to define the requirements that make travel information services accurate, complete, and available across borders to ITS users.
+The Transmodel Ecosystem is referenced in the context of the European **[ITS Directive 2010/40/EU](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010L0040)** — in particular Priority Action A, which supplements the Directive with regard to the provision of EU-wide multimodal travel information services. The role the Ecosystem plays under this directive is to define the requirements that make travel information services accurate, complete, and available across borders to ITS users.
 
-The Public Transport Reference Data Model covers the same domains reflected in the directive's scope: network topology, scheduling, operations monitoring and control, fare management, passenger information, driver management, management information and statistics, and alternative modes.
+The Public Transport Reference Data Model — Transmodel itself — covers the same domains reflected in the directive's scope: network topology, scheduling, operations monitoring and control, fare management, passenger information, driver management, management information and statistics, and alternative modes.
 
 ## The MMTIS Regulation
 
@@ -17,7 +17,7 @@ The **Multimodal Travel Information Services Regulation** — usually called MMT
 For public transport modes, MMTIS requires that data be published in one of the following standards (or in any digital machine-readable format that can be demonstrated fully compatible and interoperable with them — for example via automatic converters and validators):
 
 - **NeTEx** (CEN/TS 16614 and subsequent versions).
-- The technical specifications set out in **Regulation (EU) No 454/2011** — dedicated to the trans-European rail network.
+- The technical specifications set out in **Regulation (EU) No 454/2011** — dedicated to the trans-European rail network (see the [Telematics Applications TSI](#the-telematics-applications-tsi-rail) below for the current position).
 - The technical documents published under the authority of the **IATA Passenger Services Conference** — for air.
 - **Transmodel EN 12896** where there is no reference exchange protocol.
 
@@ -25,9 +25,26 @@ For the spatial network, the requirements set out in Article 7 of Directive 2007
 
 The Regulation provides a detailed calendar for the publication obligation of each data category listed.
 
-## How Transmodel fits in
+## The Telematics Applications TSI (rail)
 
-Transmodel is the conceptual layer beneath all this. [NeTEx](../standards/netex/index.md), [SIRI](../standards/siri/index.md), [OpRa](../standards/opra/index.md) and [OJP](../standards/ojp/index.md) are the data formats derived from Transmodel that MMTIS names as usable exchange formats. Where these formats are used, Transmodel is used underneath.
+On 6 February 2026 the European Commission adopted a new **Technical Specification for Interoperability on Telematics** (the Telematics Applications TSI), which entered into force on 2 March 2026. It sets requirements for interoperable data sharing across the EU's rail transport system.
+
+The TSI covers common requirements for:
+
+- Passenger information and ticketing
+- Digital freight services and intermodal logistics
+- Capacity management, train preparation, and traffic management
+- Standardised APIs, cybersecurity, and open-data principles
+
+**Under this TSI, railway data must be exchanged using NeTEx (for scheduled data) and SIRI (for real-time information)** — bringing the rail sector into alignment with the same exchange standards already required for the wider public transport sector under MMTIS.
+
+In practical terms, this means railway is now formally inside the same Transmodel Ecosystem as bus, tram, metro, and multi-modal services — sharing the same vocabulary and the same exchange formats. Progress on rail-specific NeTEx and SIRI profiles is coordinated through CEN/TC 278 and, for national profiles, through NAPCORE and the [European Fare Rail Profile (EFRP/EFIP) work stream](https://www.cencenelec.eu/media/CEN-CENELEC/News/Brief%20News/2025/cen-tc-278_n5072_europeanfarerailprofilenetex-callforexperts.pdf).
+
+For the official texts, see the [European Commission announcement](https://transport.ec.europa.eu/news-events/news/commission-adopts-harmonised-eu-specifications-data-sharing-rail-transport-2026-02-10_en) and the [European Union Agency for Railways overview](https://www.era.europa.eu/content/european-commission-adopts-new-tsi-telematics-enable-interoperable-data-sharing-rail).
+
+## How the Ecosystem fits in
+
+The Transmodel Ecosystem sits directly inside this legal framework. Transmodel provides the conceptual layer beneath — [NeTEx](../standards/netex/index.md), [SIRI](../standards/siri/index.md), [OpRa](../standards/opra/index.md) and [OJP](../standards/ojp/index.md) are the data formats derived from it that MMTIS and the Telematics Applications TSI name as usable exchange formats. Where these formats are used, Transmodel is used underneath.
 
 ## In detail
 
