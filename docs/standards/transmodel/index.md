@@ -71,7 +71,7 @@ Transmodel itself is a *conceptual* model — it defines *what* the concepts are
 
 All four are Transmodel-based: they use its entities, its definitions, and its relationships. If you work with any of them, you are working with Transmodel underneath.
 
-![Architecture of the different parts of Transmodel](../../assets/images/transmodel-cen/BubbleChartTransmodelUpdate0724-1024x576.jpg)
+![Transmodel parts and their mapping to NeTEx, SIRI, OJP and OpRa](../../assets/images/transmodel-cen/governance_fig.4_transmodel-parts.svg)
 
 ## Who builds on Transmodel
 
