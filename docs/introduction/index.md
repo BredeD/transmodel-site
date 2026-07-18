@@ -20,7 +20,7 @@ All five are open, maintained under CEN/TC 278 Working Group 3, and designed to 
 
 The details of each standard live in their own top-level sections above. This Introduction covers the ecosystem as a whole — how the standards fit together, how to use them, how they're governed.
 
-![](../assets/images/transmodel-cen/I7BSAO1KT8-1-768x512-1.jpg)
+![Transmodel as the conceptual data model beneath NeTEx, SIRI, OJP and OpRa](../assets/images/transmodel-cen/governance_fig.3_standards-relate-updated.svg)
 
 ## Why this ecosystem matters
 
