@@ -35,8 +35,6 @@ Transmodel is designed for the whole public transport domain — not just buses,
 !!! note "Version 6.2 scope"
     EN 12896 v6.2 is dedicated to conventional and alternative modes of operation. Personal modes are noted for completeness but are not modelled.
 
-![Example of modes of operation for NeTEx](../../assets/images/transmodel-cen/NeTEx-part5-768x541.png)
-
 ## A European norm
 
 Transmodel has been recognised as a European standard since 2009. It is published in ten parts under the reference number **EN 12896 Part 1** through **Part 10**. Being a norm means it isn't a proposal or a suggestion — it's the agreed reference that member states, standardisation bodies, and system suppliers align to.
