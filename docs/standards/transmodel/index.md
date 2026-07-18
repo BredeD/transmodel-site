@@ -4,6 +4,8 @@ Transmodel is the European reference data model for public transport. It gives e
 
 If you build software that exchanges timetables, fares, stops or real-time updates, Transmodel is the vocabulary the other party is using. If you set policy or plan services, Transmodel is what makes it possible for those services to appear on any travel app across Europe.
 
+For a walkthrough of Transmodel's core concepts with illustrations — vehicle vs. passenger, journey patterns, day types, separation of concerns — see [Key concepts](concepts.md).
+
 !!! note "Transmodel is conceptual, not an exchange format"
     Transmodel doesn't have direct implementations. It's a *conceptual* data model — it defines concepts and relationships, not files or APIs. The systems and services you can actually connect to are built on the standards derived from Transmodel: **NeTEx**, **SIRI**, **OJP**, **OpRa**. See [How it relates to NeTEx, SIRI, OJP and OpRa](#how-it-relates-to-netex-siri-ojp-and-opra) below, and [Who builds on Transmodel](#who-builds-on-transmodel) further down.
 
@@ -85,6 +87,6 @@ Transmodel isn't something you install or connect to directly — but it's the f
 
 Ecosystem-level context (shared across the standards):
 
-- **[Purpose](../../introduction/purpose.md)** — why Transmodel exists and what problems it solves.
+- **[Introduction](../../introduction/index.md)** — the ecosystem's story and why it exists.
 - **[Governance](../../introduction/governance.md)** — who maintains Transmodel and how decisions are made.
 - **[Legal context](../../introduction/legal-context.md)** — how Transmodel connects to EU regulations and directives.

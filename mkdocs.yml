@@ -122,8 +122,6 @@ nav:
       - Governance: introduction/governance.md
       - How to contribute: introduction/how-to-contribute.md
       - NAPCORE: introduction/napcore.md
-      - Purpose: introduction/purpose.md
-      - Transmodel at a glance: introduction/transmodel-at-a-glance.md
       - Legal context: introduction/legal-context.md
       - History: introduction/history.md
       - Conformity:
@@ -136,6 +134,7 @@ nav:
   # it has "Adopters" (who builds on it).
   - Transmodel:
       - Overview: standards/transmodel/index.md
+      - Key concepts: standards/transmodel/concepts.md
       - Adopters: standards/transmodel/adopters.md
       - FAQ: standards/transmodel/faq.md
       - Resources: standards/transmodel/resources.md

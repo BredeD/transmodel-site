@@ -5,6 +5,8 @@ The Transmodel family of standards is maintained under [CEN/TC 278 Working Group
 !!! info "Placeholder"
     This page will be filled in with concrete contribution paths as the extended group agrees the wording. Kept as a stub for now so the structure is visible.
 
+    **Suggestion:** once the content for *How to use the standards*, *Governance*, and *NAPCORE* is agreed on, consider merging all four into a single page. The topics overlap heavily and readers likely want the picture in one place.
+
 ## Contribution paths (to be detailed)
 
 - **Raising a change request** against an existing standard (NeTEx, SIRI, OJP, OpRa) — via the relevant CEN sub-group's process.

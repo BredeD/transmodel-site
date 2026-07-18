@@ -1,28 +1,33 @@
 # Purpose
 
-Public transport services rely increasingly on information systems to keep operations running and to give passengers accurate, accessible information. Behind the scenes, those systems do a lot of very different jobs: setting schedules and timetables, managing vehicle fleets and driving personnel, defining who is entitled to travel and validating their tickets, publishing real-time updates when things change, and calculating the best trip for a passenger based on their preferences.
+Public transport in Europe is delivered by hundreds of authorities and thousands of operators, spread across thirty-plus countries and served by dozens of vendors. Behind the scenes, they all work with the same underlying reality — routes, stops, schedules, fares, passenger journeys — but for a long time each system described that reality in its own way.
 
-Each of those jobs used to be handled by systems that spoke their own language. Data would move between them only after custom translation — expensive to build, brittle to maintain, and impossible to scale across borders.
+Data could move between systems only after custom translation, one integration at a time. Expensive to build. Brittle to maintain. Impossible to scale across borders. Cross-border journey planning, national access points, integrated ticketing — all held back by the same fragmentation.
 
-Transmodel exists to fix that.
+The Transmodel Ecosystem exists to fix that.
 
-## What Transmodel does
+## A family of standards, built on one shared model
 
-Transmodel — the short name for the European Standard **EN 12896, Public Transport Reference Data Model** — is a common data model for the whole public transport domain. It gives every one of those systems the same vocabulary: matching entity definitions, matching structures, matching meanings.
+At the heart of the ecosystem is **Transmodel** (EN 12896) — a conceptual reference data model that defines the vocabulary, entities, and relationships of the public transport domain. Every other standard in the family is built on this common foundation.
 
-That common vocabulary makes interoperability possible on two levels:
+Around it sit four exchange standards:
 
-- **Within an organisation.** A scheduling system, a fleet management system, and a ticketing system, all built by different vendors, can exchange data because they refer to the same underlying concepts.
-- **Between organisations.** A public authority and a transport operator, or two operators, or an operator and a journey planner, can integrate their data because they aren't guessing about what each other means.
+- **NeTEx** for scheduled data (network, stops, timetables, calendars, fares, vehicle scheduling)
+- **SIRI** for real-time data (vehicle positions, delays, alerts, facility availability)
+- **OJP** for distributed journey planning APIs
+- **OpRa** for observed and historical operational data
+
+Each covers a different phase in the life of a public transport service, and because they all share Transmodel's vocabulary, information can flow between them without translation. A *ServiceJourney* published in NeTEx is the same *ServiceJourney* referenced by SIRI. An *Operator* returned by an OJP query is the same *Operator* known to the scheduling system.
+
+For an overview of which standard handles what, see [How the standards are linked](how-standards-are-linked.md).
 
 ![](../assets/images/transmodel-cen/I7BSAO1KT8-1-768x512-1.jpg)
 
-## Why it matters
+## Why this matters
 
-Transmodel provides a framework for defining and agreeing data models across the whole area of public transport. That has practical consequences:
+- **Interoperability becomes the default**, not something built one integration at a time. Systems from different vendors, different agencies, different countries can exchange data because they refer to the same underlying concepts.
+- **Cross-border passenger information becomes practical.** A journey planned in Norway can appear in a Dutch travel app without custom mapping at every hop.
+- **The public sector can procure with confidence.** Tenders can require Transmodel-based standards without locking themselves in to any single vendor.
+- **The ecosystem is designed to grow.** New modes of transport, new use cases, and new national profiles can be added without breaking what already works.
 
-- **Interoperability becomes the default**, not something built one integration at a time.
-- **Operators, authorities and software suppliers can work together more easily** — they're starting from a shared model instead of negotiating one for every project.
-- **Future systems have room to grow.** Because Transmodel covers the whole domain rather than a single use case, extensions and new applications can be added without breaking what already works.
-
-The concrete implementations that carry Transmodel data between systems — [NeTEx](../standards/netex/index.md) for schedules, [SIRI](../standards/siri/index.md) for real-time, [OJP](../standards/ojp/index.md) for journey planning, [OpRa](../standards/opra/index.md) for observed data — are all derived from it. Working with any of them means working with Transmodel underneath.
+The rest of this section explains [how the standards work together](how-standards-are-linked.md), [how to use them](how-to-use-the-standards.md), and how the whole family is [governed](governance.md) and [coordinated across Europe](napcore.md).
