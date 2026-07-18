@@ -121,9 +121,9 @@ nav:
       - How to use the standards: introduction/how-to-use-the-standards.md
       - Governance: introduction/governance.md
       - How to contribute: introduction/how-to-contribute.md
-      - NAPCORE: introduction/napcore.md
       - Legal context: introduction/legal-context.md
       - History: introduction/history.md
+      - NAPCORE: introduction/napcore.md
       - Conformity:
           - Overview: introduction/conformity/index.md
           - Standards harmonisation: introduction/conformity/harmonisation.md
