@@ -116,7 +116,6 @@ plugins:
 # ----------------------------------------------------------------------------
 nav:
   - Introduction:
-      - Overview: introduction/index.md
       - How the standards are linked: introduction/how-standards-are-linked.md
       - How to use the standards: introduction/how-to-use-the-standards.md
       - Governance: introduction/governance.md

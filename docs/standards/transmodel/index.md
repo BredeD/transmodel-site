@@ -85,6 +85,6 @@ Transmodel isn't something you install or connect to directly — but it's the f
 
 Ecosystem-level context (shared across the standards):
 
-- **[Introduction](../../introduction/index.md)** — the ecosystem's story and why it exists.
+- **[Home](../../index.md)** — the ecosystem's story and why it exists.
 - **[Governance](../../introduction/governance.md)** — who maintains Transmodel and how decisions are made.
 - **[Legal context](../../introduction/legal-context.md)** — how Transmodel connects to EU regulations and directives.

@@ -7,7 +7,7 @@
 
 Transmodel is a conceptual data model describing in terms of data structures (entities and relationships between them) the domain of Public Transport. 
 
-It may be used for several [purposes](../../introduction/index.md), in particular to specify a data base or data exchange formats that enable the sharing and provision of accurate and interoperable public transport information across organisation- and system-boundaries. 
+It may be used for several [purposes](../../index.md), in particular to specify a data base or data exchange formats that enable the sharing and provision of accurate and interoperable public transport information across organisation- and system-boundaries. 
 
 When writing laws and regulations, procuring technical systems or integrating technical systems, it is a huge advantage to have access to a precise language. 
 
