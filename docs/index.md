@@ -65,6 +65,12 @@ Data could move between systems only after custom translation, one integration a
 
 ![Transmodel as the conceptual data model beneath NeTEx, SIRI, OJP and OpRa](assets/images/transmodel-cen/governance_fig.3_standards-relate-updated.svg)
 
+## The passenger's journey
+
+Each standard covers a different phase in the life of a public transport trip. Together they span the full journey — from planning through live operation to after-the-fact analysis — all sharing the same underlying vocabulary through Transmodel.
+
+![A passenger's journey and the standards behind each phase](assets/images/site/traveller-journey.svg)
+
 ## Why this ecosystem matters
 
 - **Interoperability becomes the default**, not something built one integration at a time. Systems from different vendors, different agencies, different countries can exchange data because they refer to the same underlying concepts.
