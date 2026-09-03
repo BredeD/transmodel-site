@@ -6,7 +6,9 @@ Transmodel-site download from Sara/
 _references/
 
 # MkDocs build output — regenerated from docs/
-site/
+# Anchored to repo root so we don't accidentally ignore folders like
+# docs/assets/images/site/ that also happen to be called "site".
+/site/
 
 # The large source-export ZIPs (~1.5 GB total).
 # The XML files ARE committed as the audit trail; the ZIPs stay local.
