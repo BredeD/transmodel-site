@@ -49,7 +49,7 @@ If you see a legacy page that still speaks about Data4PT in the present tense, r
 Currently trusted sources (see SOURCES.md for the full context and scope of each):
 
 - `_references/nordic-netex-documentation/` — the official Nordic NeTEx profile documentation. Use for anything specific to the Nordic profile (Norway, Sweden, Finland, Denmark). Folders: `frames/`, `guides/`, `objects/`, `ontology/`.
-- `_references/entur-netex-ontology/` — a machine-readable ontology of NeTEx concepts and relationships. Use for reasoning about how entities relate.
+- `_references/nordic-netex-ontology/` — a machine-readable ontology of Nordic NeTEx concepts and relationships. Use for reasoning about how entities relate. Note: this is the Nordic-profile ontology, not any Entur-specific extension.
 
 **How to actually use these:**
 

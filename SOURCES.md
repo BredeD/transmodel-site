@@ -22,13 +22,13 @@ Sources on this list are treated as authoritative by AI assistants working in th
 - **Local path after sync:** `_references/nordic-netex-documentation/`
 - **Scope:** Nordic profile only. Do not treat as authoritative for other national profiles (French, Italian, Croatian, etc.).
 
-### entur/entur-netex-ontology
+### entur/nordic-netex-ontology
 
-- **URL:** https://github.com/entur/entur-netex-ontology
-- **What it is:** A machine-readable ontology of NeTEx concepts and their relationships, produced by Entur.
-- **Why we trust it:** Produced by the same team as the Nordic profile documentation; useful for reasoning about how NeTEx entities relate to each other.
-- **Local path after sync:** `_references/entur-netex-ontology/`
-- **Scope:** Terminology and relationships. Not a substitute for the NeTEx standard itself when it comes to XSD conformance.
+- **URL:** https://github.com/entur/nordic-netex-ontology
+- **What it is:** A machine-readable ontology of Nordic NeTEx concepts and their relationships.
+- **Why we trust it:** Produced by the same team as the Nordic profile documentation; useful for reasoning about how NeTEx entities relate to each other, without risk of pulling in Entur-specific implementations.
+- **Local path after sync:** `_references/nordic-netex-ontology/`
+- **Scope:** Terminology and relationships for the Nordic NeTEx profile. Not a substitute for the NeTEx standard itself when it comes to XSD conformance, and not a substitute for any single implementation's internal model.
 
 ### TransmodelEcosystem/NeTEx
 
