@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Sketch: A passenger's journey and the standards behind each phase.
+  Sketch: A passenger's journey — the standards behind each phase.
   Rough draft for iteration; Sara to restyle with correct font and palette later.
-  Note: OJP shown as a cross-cutting API layer over NeTEx + SIRI, not as a phase.
+  Note: OJP shown as a cross-cutting API layer, not a phase.
 -->
-<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<svg viewBox="0 0 960 470" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
 
   <defs>
     <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto">
       <polygon points="0 0, 12 4, 0 8" fill="#3949ab"/>
     </marker>
     <style>
-      .heading    { font-size: 22px; font-weight: 700; fill: #1a237e; }
-      .subheading { font-size: 13px; fill: #546e7a; }
       .phase-title { font-size: 20px; font-weight: 700; fill: #1a237e; }
       .phase-sub   { font-size: 13px; font-weight: 600; fill: #263238; }
       .phase-desc  { font-size: 12px; fill: #455a64; }
@@ -24,69 +22,65 @@
     </style>
   </defs>
 
-  <!-- Title -->
-  <text x="480" y="34" text-anchor="middle" class="heading">A passenger's journey</text>
-  <text x="480" y="56" text-anchor="middle" class="subheading">and the standards behind each phase</text>
-
   <!-- Phase 1: Before -->
-  <rect x="40" y="90" width="260" height="130" rx="14" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
-  <text x="170" y="120" text-anchor="middle" class="phase-title">Before the trip</text>
-  <text x="170" y="146" text-anchor="middle" class="phase-sub">Planning the journey</text>
-  <text x="170" y="170" text-anchor="middle" class="phase-desc">Timetables, stops, fares,</text>
-  <text x="170" y="188" text-anchor="middle" class="phase-desc">ticketing, door-to-door</text>
-  <text x="170" y="206" text-anchor="middle" class="phase-desc">journey planning</text>
+  <rect x="40" y="20" width="260" height="130" rx="14" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+  <text x="170" y="50" text-anchor="middle" class="phase-title">Before the trip</text>
+  <text x="170" y="76" text-anchor="middle" class="phase-sub">Planning the journey</text>
+  <text x="170" y="100" text-anchor="middle" class="phase-desc">Timetables, stops, fares,</text>
+  <text x="170" y="118" text-anchor="middle" class="phase-desc">ticketing, door-to-door</text>
+  <text x="170" y="136" text-anchor="middle" class="phase-desc">journey planning</text>
 
   <!-- Arrow between Before and During -->
-  <path d="M 305 155 L 345 155" stroke="#3949ab" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 305 85 L 345 85" stroke="#3949ab" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
 
   <!-- Phase 2: During -->
-  <rect x="350" y="90" width="260" height="130" rx="14" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
-  <text x="480" y="120" text-anchor="middle" class="phase-title">During the trip</text>
-  <text x="480" y="146" text-anchor="middle" class="phase-sub">Live updates</text>
-  <text x="480" y="170" text-anchor="middle" class="phase-desc">Vehicle positions, delays,</text>
-  <text x="480" y="188" text-anchor="middle" class="phase-desc">cancellations, alerts,</text>
-  <text x="480" y="206" text-anchor="middle" class="phase-desc">on-the-fly replanning</text>
+  <rect x="350" y="20" width="260" height="130" rx="14" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+  <text x="480" y="50" text-anchor="middle" class="phase-title">During the trip</text>
+  <text x="480" y="76" text-anchor="middle" class="phase-sub">Live updates</text>
+  <text x="480" y="100" text-anchor="middle" class="phase-desc">Vehicle positions, delays,</text>
+  <text x="480" y="118" text-anchor="middle" class="phase-desc">cancellations, alerts,</text>
+  <text x="480" y="136" text-anchor="middle" class="phase-desc">on-the-fly replanning</text>
 
   <!-- Arrow between During and After -->
-  <path d="M 615 155 L 655 155" stroke="#3949ab" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 615 85 L 655 85" stroke="#3949ab" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
 
   <!-- Phase 3: After -->
-  <rect x="660" y="90" width="260" height="130" rx="14" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
-  <text x="790" y="120" text-anchor="middle" class="phase-title">After the trip</text>
-  <text x="790" y="146" text-anchor="middle" class="phase-sub">Analysis and improvement</text>
-  <text x="790" y="170" text-anchor="middle" class="phase-desc">What actually happened —</text>
-  <text x="790" y="188" text-anchor="middle" class="phase-desc">observed times, KPIs,</text>
-  <text x="790" y="206" text-anchor="middle" class="phase-desc">operational statistics</text>
+  <rect x="660" y="20" width="260" height="130" rx="14" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+  <text x="790" y="50" text-anchor="middle" class="phase-title">After the trip</text>
+  <text x="790" y="76" text-anchor="middle" class="phase-sub">Analysis and improvement</text>
+  <text x="790" y="100" text-anchor="middle" class="phase-desc">What actually happened —</text>
+  <text x="790" y="118" text-anchor="middle" class="phase-desc">observed times, KPIs,</text>
+  <text x="790" y="136" text-anchor="middle" class="phase-desc">operational statistics</text>
 
   <!-- Standard pills — one per phase -->
-  <rect x="100" y="240" width="140" height="36" rx="18" fill="#3949ab"/>
-  <text x="170" y="264" text-anchor="middle" class="pill-text">NeTEx</text>
+  <rect x="100" y="170" width="140" height="36" rx="18" fill="#3949ab"/>
+  <text x="170" y="194" text-anchor="middle" class="pill-text">NeTEx</text>
 
-  <rect x="410" y="240" width="140" height="36" rx="18" fill="#3949ab"/>
-  <text x="480" y="264" text-anchor="middle" class="pill-text">SIRI</text>
+  <rect x="410" y="170" width="140" height="36" rx="18" fill="#3949ab"/>
+  <text x="480" y="194" text-anchor="middle" class="pill-text">SIRI</text>
 
-  <rect x="720" y="240" width="140" height="36" rx="18" fill="#3949ab"/>
-  <text x="790" y="264" text-anchor="middle" class="pill-text">OpRa</text>
+  <rect x="720" y="170" width="140" height="36" rx="18" fill="#3949ab"/>
+  <text x="790" y="194" text-anchor="middle" class="pill-text">OpRa</text>
 
   <!-- Connectors from NeTEx and SIRI pills down to OJP band -->
-  <line x1="170" y1="276" x2="170" y2="315" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
-  <line x1="480" y1="276" x2="480" y2="315" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="170" y1="206" x2="170" y2="245" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="480" y1="206" x2="480" y2="245" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
 
   <!-- OJP band — cross-cutting API layer (spans Before + During only) -->
-  <rect x="40" y="315" width="570" height="68" rx="12" fill="#c5cae9" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="325" y="342" text-anchor="middle" class="layer-title">OJP — Distributed journey planning</text>
-  <text x="325" y="362" text-anchor="middle" class="layer-desc">An open API for asking "how do I get from A to B?"</text>
-  <text x="325" y="378" text-anchor="middle" class="layer-desc">across systems and country borders</text>
+  <rect x="40" y="245" width="570" height="68" rx="12" fill="#c5cae9" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="325" y="272" text-anchor="middle" class="layer-title">OJP — Distributed journey planning</text>
+  <text x="325" y="292" text-anchor="middle" class="layer-desc">An open API for asking "how do I get from A to B?"</text>
+  <text x="325" y="308" text-anchor="middle" class="layer-desc">across systems and country borders</text>
 
   <!-- Connectors from all three pills down to Transmodel foundation -->
-  <line x1="170" y1="383" x2="170" y2="440" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
-  <line x1="480" y1="383" x2="480" y2="440" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
-  <line x1="790" y1="276" x2="790" y2="440" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="170" y1="313" x2="170" y2="370" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="480" y1="313" x2="480" y2="370" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="790" y1="206" x2="790" y2="370" stroke="#3949ab" stroke-width="1.5" stroke-dasharray="4,4"/>
 
   <!-- Foundation bar -->
-  <rect x="40" y="440" width="880" height="80" rx="14" fill="#1a237e"/>
-  <text x="480" y="472" text-anchor="middle" class="foundation-title">Transmodel</text>
-  <text x="480" y="495" text-anchor="middle" class="foundation-desc">The shared conceptual foundation — every standard above uses the same entities, definitions</text>
-  <text x="480" y="512" text-anchor="middle" class="foundation-desc">and relationships, so information flows across phases without translation</text>
+  <rect x="40" y="370" width="880" height="80" rx="14" fill="#1a237e"/>
+  <text x="480" y="402" text-anchor="middle" class="foundation-title">Transmodel</text>
+  <text x="480" y="425" text-anchor="middle" class="foundation-desc">The shared conceptual foundation — every standard above uses the same entities, definitions</text>
+  <text x="480" y="442" text-anchor="middle" class="foundation-desc">and relationships, so information flows across phases without translation</text>
 
 </svg>

@@ -63,9 +63,13 @@ Data could move between systems only after custom translation, one integration a
 
 </div>
 
+## A family with a shared foundation
+
+The four exchange standards — NeTEx, SIRI, OJP and OpRa — sit on top of Transmodel, the shared conceptual model that gives them a common vocabulary. The diagram below shows how they relate:
+
 ![Transmodel as the conceptual data model beneath NeTEx, SIRI, OJP and OpRa](assets/images/transmodel-cen/governance_fig.3_standards-relate-updated.svg)
 
-## The passenger's journey
+## A passenger's journey — and the standards behind each phase
 
 Each standard covers a different phase in the life of a public transport trip. Together they span the full journey — from planning through live operation to after-the-fact analysis — all sharing the same underlying vocabulary through Transmodel.
 
