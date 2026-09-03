@@ -15,7 +15,11 @@ Data could move between systems only after custom translation, one integration a
 !!! info "Under construction"
     This site is being built by a small team from across CEN, Entur and partner organisations to replace [transmodel-cen.eu](https://transmodel-cen.eu) and [data4pt.org/wiki](https://data4pt.org/wiki/Main_Page). Content will fill out as pages are washed and approved.
 
-## The five standards
+## The five standards and how they fit together
+
+Four exchange standards — NeTEx, SIRI, OJP and OpRa — sit on top of Transmodel, the shared conceptual model that gives them a common vocabulary. The diagram shows how they relate; the cards below give a one-line intro to each.
+
+![Transmodel as the conceptual data model beneath NeTEx, SIRI, OJP and OpRa](assets/images/transmodel-cen/governance_fig.3_standards-relate-updated.svg)
 
 <div class="grid cards" markdown>
 
@@ -62,12 +66,6 @@ Data could move between systems only after custom translation, one integration a
     [Learn about OpRa →](standards/opra/index.md)
 
 </div>
-
-## A family with a shared foundation
-
-The four exchange standards — NeTEx, SIRI, OJP and OpRa — sit on top of Transmodel, the shared conceptual model that gives them a common vocabulary. The diagram below shows how they relate:
-
-![Transmodel as the conceptual data model beneath NeTEx, SIRI, OJP and OpRa](assets/images/transmodel-cen/governance_fig.3_standards-relate-updated.svg)
 
 ## A passenger's journey — and the standards behind each phase
 
