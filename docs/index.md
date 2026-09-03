@@ -17,7 +17,7 @@ Data could move between systems only after custom translation, one integration a
 
 ## The five standards and how they fit together
 
-Four exchange standards — NeTEx, SIRI, OJP and OpRa — sit on top of Transmodel, the shared conceptual model that gives them a common vocabulary. The diagram shows how they relate; the cards below give a one-line intro to each.
+Together, these five standards let a passenger use public transport as if it were one connected service, even when their trip spans several operators or borders. Timetables and service information can be published once and appear across every travel app the region's passengers use. Whoever brings in a new system — an operator or a public transport authority for a region — can choose freely between suppliers, because any Transmodel-based system can work with any other. Operators and authorities can compare planned service to what actually happened, and improve based on real evidence. Everything a passenger sees — the journey planner, the departure board, the app on their phone — is powered by these five agreed standards.
 
 ![Transmodel as the conceptual data model beneath NeTEx, SIRI, OJP and OpRa](assets/images/transmodel-cen/governance_fig.3_standards-relate-updated.svg)
 
@@ -27,9 +27,7 @@ Four exchange standards — NeTEx, SIRI, OJP and OpRa — sit on top of Transmod
 
     ---
 
-    **The reference data model.** The conceptual foundation — concepts, definitions, and the relationships that every other standard in this family implements.
-
-    Published as EN 12896, in ten parts.
+    **The reference data model.** The shared vocabulary that every standard in this family uses.
 
     [Learn about Transmodel →](standards/transmodel/index.md)
 
@@ -37,7 +35,7 @@ Four exchange standards — NeTEx, SIRI, OJP and OpRa — sit on top of Transmod
 
     ---
 
-    **Scheduled data.** Network, stops, timetables, calendars, fares and vehicle scheduling. The XML format for what's planned.
+    **Scheduled data.** What the service looks like on paper: routes, stops, timetables, fares.
 
     [Learn about NeTEx →](standards/netex/index.md)
 
@@ -45,7 +43,7 @@ Four exchange standards — NeTEx, SIRI, OJP and OpRa — sit on top of Transmod
 
     ---
 
-    **Real-time data.** Vehicle positions, delays, cancellations, service alerts, and facility availability. What's happening on the network right now.
+    **Real-time data.** What the service looks like right now: where the vehicles are, delays, alerts.
 
     [Learn about SIRI →](standards/siri/index.md)
 
@@ -53,7 +51,7 @@ Four exchange standards — NeTEx, SIRI, OJP and OpRa — sit on top of Transmod
 
     ---
 
-    **Distributed journey planning.** An open API for asking "how do I get from A to B?" across operator and country boundaries — without a central data warehouse.
+    **Distributed journey planning.** How different journey planners talk to each other, across companies and borders.
 
     [Learn about OJP →](standards/ojp/index.md)
 
@@ -61,7 +59,7 @@ Four exchange standards — NeTEx, SIRI, OJP and OpRa — sit on top of Transmod
 
     ---
 
-    **Observed and historical data.** What actually happened — passing times, delays, cancellations — for analysis, statistics and continuous improvement.
+    **Observed and historical data.** What actually happened, once the day is over — the data behind reports and analysis.
 
     [Learn about OpRa →](standards/opra/index.md)
 
