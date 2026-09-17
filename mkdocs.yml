@@ -123,11 +123,6 @@ nav:
       - Legal context: introduction/legal-context.md
       - History: introduction/history.md
       - NAPCORE: introduction/napcore.md
-      - Conformity:
-          - Overview: introduction/conformity/index.md
-          - Standards harmonisation: introduction/conformity/harmonisation.md
-          - Standards comparison: introduction/conformity/comparison.md
-          - Certification: introduction/conformity/certification.md
 
   # Transmodel is a conceptual model. It has no "Implementations" — instead
   # it has "Adopters" (who builds on it).
