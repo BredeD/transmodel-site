@@ -1,41 +1,54 @@
-# How to use the standards
+# Using the standards
 
-This section is a high-level guide only. It answers the question *"where do I start, and what do I need?"* without going into detail on any single standard.
+A public transport service moves through four phases, and each has a matching standard.
 
-## You don't have to buy anything
+| Phase | Question the phase answers | Standard |
+| --- | --- | --- |
+| **Planning the service** | What runs when, where, at what price? | **NeTEx** |
+| **Running the service** | Where is it right now, and is anything unusual happening? | **SIRI** |
+| **Helping a passenger get somewhere** | How do I get from A to B, across operators and borders? | **OJP** |
+| **Learning from what happened** | Did it run as planned, and what should we improve? | **OpRa** |
 
-CEN Technical Specifications for NeTEx, SIRI, OJP and OpRa are formally published documents that can be purchased from national standardization bodies. **You do not need to.** The specifications are also available as open-source repositories on GitHub, and the practical material for implementation — schemas, examples, national profiles — is freely accessible.
+Underneath all four sits **[Transmodel](../standards/transmodel/index.md)** — the conceptual model that gives every one of them the same vocabulary. When your technical team says "Transmodel underneath", they mean the shared definitions that make information from one standard translate cleanly into another.
 
-Buy the formal specifications if you need them for reference in a tender document, regulatory filing, or academic citation. For everyday implementation work, you'll spend more time in the GitHub repositories and profile documentation than in the formal PDF.
+## Shared vocabulary in practice
 
-## Which standard to use
+A *ServiceJourney* published in NeTEx is the same *ServiceJourney* that SIRI reports on in real time. The *Operator* running that journey is the same *Operator* the journey planner names in OJP. The stop being planned is the stop being monitored is the stop being counted in the after-the-fact analysis.
 
-Which standard applies to a given problem is described in the [standards summaries on the home page](../index.md) and in [How the standards are linked](how-standards-are-linked.md). In short:
+That is what lets a passenger see one journey when the data behind it comes from many organisations. It is also what lets an authority procure four systems from four suppliers and have them talk to each other without custom integration work.
 
-- If you're publishing scheduled data — **NeTEx**.
-- If you're publishing real-time data — **SIRI**.
-- If you're offering a journey planning API — **OJP**.
-- If you're sharing observed operational data — **OpRa**.
+## Which standard do I need?
 
-**Transmodel** sits beneath all four. It's the conceptual data model where the shared vocabulary, definitions, and relationships between concepts are defined. You don't choose Transmodel as an alternative to the exchange standards — it's the model they all implement, and whenever you work with one of them, you're working with Transmodel underneath.
+- Scheduled data (routes, stops, timetables, fares) → **NeTEx**
+- Real-time data (vehicle positions, delays, alerts) → **SIRI**
+- A journey planning API that talks to other planners → **OJP**
+- Observed or historical operational data for analysis → **OpRa**
 
-If the problem doesn't obviously match one standard, it's usually because the problem spans several phases (planning + real-time, for instance). In that case you use several standards together — that's the whole point of a shared conceptual model.
+If your problem obviously matches one phase, that standard is the answer. If it spans several phases — a passenger-facing app, a national platform, a large tender — you use several standards together. That's the whole point of the shared model underneath.
+
+You don't choose Transmodel as an alternative to the four exchange standards. Every one of them implements Transmodel; whenever you work with NeTEx, SIRI, OJP or OpRa, you're already working with Transmodel underneath.
+
+## Formal specifications and open resources
+
+The formal Technical Specifications for NeTEx, SIRI, OJP and OpRa are published by CEN and can be purchased through national standardization bodies. That is the right choice when you need an authoritative reference to cite in a tender document, regulatory filing or academic work.
+
+Alongside the published specifications, the same material — schemas, examples and national profile documentation — is available in open GitHub repositories. For day-to-day implementation, most time is spent there rather than in the printed PDF.
 
 ## Where the technical detail lives
 
-Details about each standard are in the standard's own section, not here. Follow the top-level tabs:
+Each standard has its own section on this site:
 
-- [Transmodel](../standards/transmodel/index.md) — Overview + Adopters + FAQ + Resources
-- [NeTEx](../standards/netex/index.md) — Overview + Implementations + FAQ + Resources
-- [SIRI](../standards/siri/index.md) — Overview + Implementations + FAQ + Resources
-- [OJP](../standards/ojp/index.md) — Overview + Implementations + FAQ + Resources
-- [OpRa](../standards/opra/index.md) — Overview + Implementations + FAQ + Resources
+- [Transmodel](../standards/transmodel/index.md) — the conceptual model
+- [NeTEx](../standards/netex/index.md) — scheduled data
+- [SIRI](../standards/siri/index.md) — real-time data
+- [OJP](../standards/ojp/index.md) — distributed journey planning
+- [OpRa](../standards/opra/index.md) — observed operational data
 
-Each standard's Implementations page lists the national profiles and where their authoritative documentation lives.
+Each standard's page lists its national profiles and where their authoritative documentation lives.
 
-## When you need help
+## Where to get help
 
-- Check the standard's **FAQ page** first — many common questions live there.
+- Start with the standard's **FAQ page** — many common questions live there.
 - For Nordic-specific NeTEx questions, the [Nordic profile documentation](https://github.com/entur/nordic-netex-documentation) is authoritative.
 - For French-specific questions, the [French national portal](https://normes.transport.data.gouv.fr/) is authoritative.
 - Deeper implementation guidance lives in the parallel [NeTEx Guides project](https://github.com/TransmodelEcosystem/NeTEx-Guides-Documentation).

@@ -94,8 +94,7 @@ Each standard covers a different phase in the life of a public transport trip. T
 
 The Introduction tab covers the ecosystem as a whole — how the standards fit together, how to use them, how they're governed:
 
-- [How the standards are linked](introduction/how-standards-are-linked.md) — the phases of a public transport service and which standard covers each.
-- [How to use the standards](introduction/how-to-use-the-standards.md) — a high-level guide to where to start, what you need, and what you don't.
+- [Using the standards](introduction/how-to-use-the-standards.md) — a shared starting point for management and technical readers: which standard covers which phase, and how to get going.
 - [Governance](introduction/governance.md) — CEN, TC 278, WG3, and the process from proposal to published standard.
 - [How to contribute](introduction/how-to-contribute.md) — paths for raising change requests, contributing to profiles, and joining working groups.
 - [Legal context](introduction/legal-context.md) — how the standards connect to EU regulations (ITS Directive, MMTIS, TSI Telematics).

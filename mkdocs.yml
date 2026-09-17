@@ -116,8 +116,7 @@ plugins:
 # ----------------------------------------------------------------------------
 nav:
   - Introduction:
-      - How the standards are linked: introduction/how-standards-are-linked.md
-      - How to use the standards: introduction/how-to-use-the-standards.md
+      - Using the standards: introduction/how-to-use-the-standards.md
       - Governance: introduction/governance.md
       - How to contribute: introduction/how-to-contribute.md
       - Legal context: introduction/legal-context.md
