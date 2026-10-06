@@ -1,6 +1,8 @@
 # NeTEx — FAQ
 
-!!! info "Placeholder"
-    This page hasn't been written yet. It'll be washed from source material as we work through the content backlog. Kept as a stub for now so the full site structure is visible.
+!!! info "FAQs now live in the NAPCORE Helpdesk"
+    Transmodel Ecosystem FAQs are maintained in the **NAPCORE Helpdesk**, where they stay alongside answers across all five standards. That is the current source of truth for questions and answers.
 
-Will merge the ~33 NeTEx Q&As from the DATA4PT wiki with the smaller FAQ from the Transmodel site. Covers XSD generation, EPIP scoping, multilingual strings, code spaces, journey patterns, fare structures, EPIP part 5 for new modes, and more.
+    [Visit the NAPCORE Helpdesk →](https://napcore.eu/)
+
+Common questions about NeTEx — profiles, schemas, EPIP, data categories, implementation choices — are available there. If a question is missing, raise it in the Helpdesk and the ecosystem community can respond.

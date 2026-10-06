@@ -1,6 +1,8 @@
 # Transmodel — FAQ
 
-!!! info "Placeholder"
-    This page hasn't been written yet. It'll be washed from source material as we work through the content backlog. Kept as a stub for now so the full site structure is visible.
+!!! info "FAQs now live in the NAPCORE Helpdesk"
+    Transmodel Ecosystem FAQs are maintained in the **NAPCORE Helpdesk**, where they stay alongside answers across the four exchange standards (NeTEx, SIRI, OJP, OpRa). That is the current source of truth for questions and answers.
 
-Will merge the Transmodel FAQ material from the two legacy sites. Common questions about the conceptual model, the ten parts of EN 12896, how Transmodel relates to national planning, and modelling patterns.
+    [Visit the NAPCORE Helpdesk →](https://napcore.eu/)
+
+Common questions about Transmodel — the conceptual data model, its ten parts, how it relates to NeTEx/SIRI/OJP/OpRa, modelling patterns, and how to use it in national planning — are available there. If a question is missing, raise it in the Helpdesk and the ecosystem community can respond.

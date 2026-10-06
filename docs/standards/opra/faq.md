@@ -1,6 +1,8 @@
 # OpRa — FAQ
 
-!!! info "Placeholder"
-    This page hasn't been written yet. It'll be washed from source material as we work through the content backlog. Kept as a stub for now so the full site structure is visible.
+!!! info "FAQs now live in the NAPCORE Helpdesk"
+    Transmodel Ecosystem FAQs are maintained in the **NAPCORE Helpdesk**, where they stay alongside answers across all five standards. That is the current source of truth for questions and answers.
 
-Will collect OpRa-specific questions as they come up.
+    [Visit the NAPCORE Helpdesk →](https://napcore.eu/)
+
+Common questions about OpRa — observed and historical operational data, scope, relationship to SIRI (real-time) and NeTEx (planned), and current standardisation status — are available there. If a question is missing, raise it in the Helpdesk and the ecosystem community can respond.

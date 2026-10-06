@@ -122,6 +122,7 @@ nav:
       - Legal context: introduction/legal-context.md
       - History: introduction/history.md
       - NAPCORE: introduction/napcore.md
+      - Resources: introduction/resources.md
 
   # Transmodel is a conceptual model. It has no "Implementations" — instead
   # it has "Adopters" (who builds on it).
@@ -130,7 +131,6 @@ nav:
       - Key concepts: standards/transmodel/concepts.md
       - Adopters: standards/transmodel/adopters.md
       - FAQ: standards/transmodel/faq.md
-      - Resources: standards/transmodel/resources.md
 
   - NeTEx:
       - Overview: standards/netex/index.md
