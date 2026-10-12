@@ -147,6 +147,16 @@ Keep it short — no essays. If the change is trivial (typo, one-liner), just th
 - Do not rewrite whole sections without offering the contributor a chance to review your proposed change first.
 - Do not treat any content as authoritative unless it comes from a trusted source in `SOURCES.md`. If in doubt, ask.
 
+## Shared knowledge folder (cross-session memory)
+
+If a folder named `transmodel-kunnskap/` is mounted as an additional working directory in this session, it is a **shared memory** between this Cowork session and Brede's other Transmodel-related Cowork session. Read its `CLAUDE.md` and the relevant `LEARNINGS/*.md` files at the start of a conversation — the content there is current truth across both sessions.
+
+When you learn something durable that is not website-specific (a policy decision, an organisational change, a corrected fact about EUDIT / NAPCORE / Entur / Nordic profile / TSI Telematics / NEMU / 5T / anything cross-cutting), **write it to the shared folder's `LEARNINGS/` directory**, not to this repo's CLAUDE.md. That is how knowledge flows to the other session.
+
+Website-specific decisions (nav structure, page merges, mkdocs config, styling, commit conventions for this repo) stay here in this CLAUDE.md and in the project board. The shared folder is for domain-wide knowledge only.
+
+If the shared folder is **not** mounted in the current session, continue as before — do not block on it.
+
 ## Two-sentence summary
 
 You are helping a small team migrate two legacy sites into one clean markdown-first website. Be careful with `docs/`, generous with `_staging/`, always consult `_references/` before claiming anything about NeTEx, and remember that the project board — not `STATUS.md` — is the source of truth for current state.
