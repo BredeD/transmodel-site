@@ -43,20 +43,27 @@ See [Legal Context](../../introduction/legal-context.md) for how Transmodel conn
 
 ## Sub-domains covered
 
-Transmodel splits the public transport world into functional data domains, each addressed by one part of the standard:
+Transmodel splits the public transport world into functional data domains, each addressed by one part of the standard. Each part links to its section of the browsable v6.2 UML model:
 
 | Part | Domain |
 | --- | --- |
-| Part 1 | Common Concepts (shared across all other parts) |
-| Part 2 | Public transport network — routes, lines, journey patterns, stops, parking |
-| Part 3 | Timing information and vehicle scheduling |
-| Part 4 | Operations monitoring and control |
-| Part 5 | Fare management |
-| Part 6 | Passenger information (planned and real-time) |
-| Part 7 | Driver management — scheduling, rostering, personnel disposition |
-| Part 8 | Management information and statistics |
-| Part 9 | Didactic and informative documentation |
-| Part 10 | Alternative modes — vehicle sharing, pooling, rental, taxi |
+| [Part 1](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA2/EA480.htm) | Common Concepts (shared across all other parts) |
+| [Part 2](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA3/EA2011.htm) | Public transport network — routes, lines, journey patterns, stops, parking |
+| [Part 3](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA4/EA2717.htm) | Timing information and vehicle scheduling |
+| [Part 4](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA5/EA3104.htm) | Operations monitoring and control |
+| [Part 5](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA6/EA3493.htm) | Fare management |
+| [Part 6](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA7/EA5032.htm) | Passenger information (planned and real-time) |
+| [Part 7](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA8/EA5568.htm) | Driver management — scheduling, rostering, personnel disposition |
+| [Part 8](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA9/EA5759.htm) | Management information and statistics |
+| Part 9 | Didactic and informative documentation (not part of the UML model) |
+| [Part 10](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA10/EA6038.htm) | Alternative modes — vehicle sharing, pooling, rental, taxi |
+
+### The UML model
+
+The full Transmodel v6.2 model is published as UML. You can [browse the full model online](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/index.htm), or download it:
+
+- [Enterprise Architect project file (QEA)](https://transmodel-cen.eu/model6.2/TransmodelEcoSystem2024-EAv16-nk84_OpRa-v13.qea) — the editable model, compatible with Enterprise Architect v16.
+- [Standard XML export](https://transmodel-cen.eu/model6.2/Transmodel_v6.2_XML_2026.xml) — the model exported as XML.
 
 ## How it relates to NeTEx, SIRI, OJP and OpRa
 
