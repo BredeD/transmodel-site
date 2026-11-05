@@ -129,6 +129,7 @@ nav:
   - Transmodel:
       - Overview: standards/transmodel/index.md
       - Key concepts: standards/transmodel/concepts.md
+      - Model Artifacts: standards/transmodel/artifacts.md
       - Adopters: standards/transmodel/adopters.md
       - FAQ: standards/transmodel/faq.md
 
