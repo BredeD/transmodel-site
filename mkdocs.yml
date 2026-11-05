@@ -27,7 +27,8 @@ theme:
     - navigation.sections      # top-level sections expanded
     - navigation.top           # back-to-top button
     - navigation.footer        # prev/next links at page bottom
-    - toc.follow               # right-side ToC follows scroll
+    - toc.follow               # ToC follows scroll
+    - toc.integrate            # merge right-side ToC into left navigation (page sections expand under the page entry)
     - search.suggest
     - search.highlight
     - content.code.copy        # copy button on code blocks

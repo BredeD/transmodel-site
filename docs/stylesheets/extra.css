@@ -2,9 +2,9 @@
    Card grids — visual boxes with responsive column layout
    Used on the home page and section landing pages.
    Breakpoints:
-     • narrow  (<600px)  → 1 column   (e.g. 1×4 for the four exchange standards)
-     • default (≥600px)  → 2 columns  (e.g. 2×2 for the four exchange standards)
-     • wide    (≥1400px) → 3 columns  (only kicks in if 3 cards fit comfortably)
+     • narrow  (<600px)  → 1 column   (mobile)
+     • default (≥600px)  → 2 columns  (normal browser)
+     • wide    (≥1400px) → auto-fit based on card width (3 columns typical)
 --------------------------------------------------------------------------- */
 
 .md-typeset .grid.cards {

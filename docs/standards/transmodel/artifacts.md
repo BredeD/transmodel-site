@@ -1,75 +1,65 @@
 # Model Artifacts
 
-Transmodel exists in several machine-readable forms. Each is produced from the same underlying model, but each serves a different purpose — from "I just want to understand the structure" to "I want to reason over the model programmatically". This page lists what's available and when to use each.
+Transmodel exists in several machine-readable forms. Each is produced from the same underlying model, but each serves a different purpose — from *"I just want to understand the structure"* to *"I want to reason over the model programmatically"*.
 
-## UML diagrams — browsable online
+<div class="grid cards" markdown>
 
-A visual, clickable rendering of the Transmodel v6.2 model as UML class diagrams. Open in a browser; no installation.
+-   :material-sitemap: **UML diagrams**
 
-**Use this when** you want to understand how Transmodel entities fit together — what a *ServiceJourney* relates to, which attributes a *StopPlace* carries, how *FareProduct* and *TariffZone* interact.
+    ---
 
-[Browse the full model online →](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/index.htm)
+    **Use it when** you want to understand how the model is structured — classes, attributes, relationships.
 
-Each Transmodel part is documented in its own section of the UML model:
+    No tools needed; opens in a browser.
 
-| Part | Domain |
-| --- | --- |
-| [Part 1](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA2/EA480.htm) | Common Concepts (shared across all other parts) |
-| [Part 2](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA3/EA2011.htm) | Public transport network — routes, lines, journey patterns, stops, parking |
-| [Part 3](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA4/EA2717.htm) | Timing information and vehicle scheduling |
-| [Part 4](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA5/EA3104.htm) | Operations monitoring and control |
-| [Part 5](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA6/EA3493.htm) | Fare management |
-| [Part 6](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA7/EA5032.htm) | Passenger information (planned and real-time) |
-| [Part 7](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA8/EA5568.htm) | Driver management — scheduling, rostering, personnel disposition |
-| [Part 8](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA9/EA5759.htm) | Management information and statistics |
-| Part 9 | Didactic and informative documentation (not part of the UML model) |
-| [Part 10](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA10/EA6038.htm) | Alternative modes — vehicle sharing, pooling, rental, taxi |
+    [Browse the model →](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/index.htm)
 
-## Enterprise Architect source — editable model
+-   :material-file-document-edit: **Enterprise Architect source**
 
-The raw model in its native format. Opens in Sparx Enterprise Architect.
+    ---
 
-**Use this when** you want to edit, extend, inspect at source level, or export the model into another format yourself.
+    **Use it when** you want to edit the model, or inspect it at source level.
 
-**Prerequisite:** Sparx Enterprise Architect v16.
+    Needs Sparx Enterprise Architect v16.
 
-- [Transmodel v6.2 Enterprise Architect project (QEA)](https://transmodel-cen.eu/model6.2/TransmodelEcoSystem2024-EAv16-nk84_OpRa-v13.qea)
+    [Download QEA →](https://transmodel-cen.eu/model6.2/TransmodelEcoSystem2024-EAv16-nk84_OpRa-v13.qea)
 
-## XML export
+-   :material-code-tags: **XML export**
 
-A machine-readable serialisation of the UML model as XML. Lossless export of entities, attributes and relationships.
+    ---
 
-**Use this when** you want to import the model into another modelling tool, script against its structure, generate documentation automatically, or build derived artifacts (like the ontology below).
+    **Use it when** you want to automate against the model — scripts, format generators, derived documentation, or building other artifacts (like the ontology).
 
-**Prerequisite:** any XML parser.
+    Any XML parser.
 
-- [Transmodel v6.2 XML export](https://transmodel-cen.eu/model6.2/Transmodel_v6.2_XML_2026.xml)
+    [Download XML →](https://transmodel-cen.eu/model6.2/Transmodel_v6.2_XML_2026.xml)
 
-## Ontology (RDF/OWL)
+-   :material-graph: **Ontology (RDF/OWL)**
 
-A semantic-web representation of Transmodel — entities as OWL classes, relationships as object properties. **Generated from the XML export above**, so it stays aligned with the UML model as it evolves.
+    ---
 
-**Use this when** you want to:
+    **Use it when** you want to query or reason over the model semantically — SPARQL, knowledge graphs, mappings to other ontologies.
 
-- Run SPARQL queries over the model ("which entities relate to Quay?")
-- Reason automatically about transitive relationships and class hierarchies
-- Map Transmodel concepts to other ontologies (geospatial, mobility, accessibility)
-- Build knowledge graphs that integrate public transport data with other domains
+    Generated from the XML export above, so it stays aligned with the UML. Needs an RDF/OWL toolchain (Protégé, Apache Jena, RDF4J).
 
-**Prerequisite:** an RDF/OWL toolchain — Protégé, Apache Jena, RDF4J, or similar.
+    [Open the ontology project →](https://entur.github.io/transmodel-ontology-generator/)
 
-- [Transmodel ontology — generator and output](https://entur.github.io/transmodel-ontology-generator/) — the working tool that produces the ontology from the Transmodel XML export, together with the resulting ontology files.
+</div>
 
-## Which one should I use?
+## UML model — part by part
 
-Short decision guide:
+Each Transmodel part has its own section of the browsable UML model:
 
-| I want to… | Use |
-| --- | --- |
-| Understand how the model is structured | **UML diagrams** |
-| Edit the model, or inspect it at source level | **Enterprise Architect QEA** |
-| Automate against the model's structure (scripts, derived documentation, format generators) | **XML export** |
-| Query, reason over, or map the model semantically | **Ontology (RDF/OWL)** |
+- [Part 1 — Common Concepts](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA2/EA480.htm) — shared across all other parts
+- [Part 2 — Public transport network](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA3/EA2011.htm) — routes, lines, journey patterns, stops, parking
+- [Part 3 — Timing information and vehicle scheduling](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA4/EA2717.htm)
+- [Part 4 — Operations monitoring and control](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA5/EA3104.htm)
+- [Part 5 — Fare management](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA6/EA3493.htm)
+- [Part 6 — Passenger information](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA7/EA5032.htm) — planned and real-time
+- [Part 7 — Driver management](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA8/EA5568.htm) — scheduling, rostering, personnel disposition
+- [Part 8 — Management information and statistics](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA9/EA5759.htm)
+- Part 9 — Didactic and informative documentation (not part of the UML model)
+- [Part 10 — Alternative modes](https://kgpi.fgpa.um.si/napcore-helpdesk/transmodel/EARoot/EA10/EA6038.htm) — vehicle sharing, pooling, rental, taxi
 
 ## Related artifacts on other standards
 
